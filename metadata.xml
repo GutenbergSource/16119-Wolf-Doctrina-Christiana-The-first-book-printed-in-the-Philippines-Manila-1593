@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <rdf:Description>
+      <dc:title>Doctrina Christiana: The first book printed in the Philippines, Manila, 1593.</dc:title>
+      <dc:creator>Edwin Wolf 2nd (1911–1991)</dc:creator>
+      <dc:publisher>Project Gutenberg, Urbana, Illinois, USA., 2005-06-23</dc:publisher>
+      <dc:date>2005-06-23</dc:date>
+      <dc:rights>This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org.
+</dc:rights>
+      <dc:subject>Catholic Church -- Catechisms -- Tagalog</dc:subject>
+      <dc:subject>Catholic Church -- Catechisms -- Spanish</dc:subject>
+      <dc:subject>Tagalog language -- Texts</dc:subject>
+      <dc:subject>Block books -- Facsimiles</dc:subject>
+      <dc:description>A Facsimile of the copy in the Lessing J. Rosenwald Collection, Library of Congress, Washington, with an introductory essay by Edwin Wolf 2nd.</dc:description>
+      <dc:identifier>pg:16119</dc:identifier>
+   </rdf:Description>
+</rdf:RDF>

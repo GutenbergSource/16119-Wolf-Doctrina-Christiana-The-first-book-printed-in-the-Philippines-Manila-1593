@@ -1,0 +1,1806 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+
+<!-- additional entities for special characters used -->
+
+<!ENTITY prime CDATA "prime" -- prime -->
+<!ENTITY Prime CDATA "Prime" -- double prime -->
+<!ENTITY gap CDATA " " -- small gap due to missing letter. -->
+<!ENTITY etilde CDATA "e" -- e with tilde -->
+
+]>
+<TEI.2 lang=en-US>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Doctrina Christiana: The first book printed in the Philippines, Manila, 1593.</title>
+<author key="Wolf, Edwin" ref="https://viaf.org/viaf/76346033">Edwin Wolf 2nd (1911&ndash;1991)</author>
+</titleStmt>
+<publicationStmt>
+<publisher>Project Gutenberg</publisher>
+<pubPlace>Urbana, Illinois, USA.</pubPlace>
+<idno type=PGSrc>16119-Wolf-Doctrina-Christiana-The-first-book-printed-in-the-Philippines-Manila-1593</idno>
+<idno type=epub-id>urn:uuid:2c8c93af-a27a-49ee-a444-a4576f7fc5fd</idno>
+<idno type=PGclearance>20050114102237wolfnd</idno>
+<idno type=PGDPProjectId>projectID41ec243c64b66</idno>
+<idno type=PGnum>16119</idno>
+<date>2005-06-23</date>
+<availability lang=en>
+<p>This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at <xref url="https://www.gutenberg.org/">www.gutenberg.org</xref>.
+
+</availability>
+</publicationStmt>
+<notesStmt>
+    <note type="Description">A Facsimile of the copy in the Lessing J. Rosenwald Collection, Library of Congress, Washington, with an introductory essay by Edwin Wolf 2nd.</note>
+</notesStmt>
+<sourceDesc>
+<bibl>
+<author>Edwin Wolf 2nd</author>
+<title>Doctrina Christiana</title>
+<pubPlace>Washington, D.C.</pubPlace>
+<date>1947</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+
+<p>The HTML version of the Tagalog Doctrina Christiana uses the Old-Tagalog Baybayin script. These characters have been encoded following the Unicode standard, and require a Unicode-compliant Baybayin font to render correctly. A font, Tagalog Doctrina 1593, developed by <xref url="http://www.mts.net/~pmorrow/bayeng1.htm">Paul Morrow</xref>, has been included with this ebook, in the fonts directory in a file called TagDoc93.ttf. This particular font is based on the character shapes as used in this book.
+
+</encodingDesc>
+<profileDesc>
+    <langUsage>
+        <language id=de>German.</language>
+        <language id=en>English.</language>
+        <language id=en-US>English (United States).</language>
+        <language id=es>Spanish.</language>
+        <language id=it>Italian.</language>
+        <language id=la>Latin.</language>
+        <language id=pt>Portuguese.</language>
+        <language id=tl>Tagalog.</language>
+        <language id=tl-Tglg>Tagalog (in old Tagalog or Baybayin script).</language>
+    </langUsage>
+    <textClass>
+        <keywords>
+            <list>
+                <item>Catholic Church -- Catechisms -- Tagalog</item>
+                <item>Catholic Church -- Catechisms -- Spanish</item>
+                <item>Tagalog language -- Texts</item>
+                <item>Block books -- Facsimiles</item>
+            </list>
+        </keywords>
+    </textClass>
+</profileDesc>
+<revisionDesc>
+<list>
+    <item>2004-11-24 Added TEI header.
+    <item>2014-06-23 Added newly designed cover.
+</list>
+</revisionDesc>
+</teiHeader>
+<text>
+<front id=frontmatter>
+<div1 id=cover type=Cover>
+
+
+<p><figure id=cover-image rend="image(images/new-cover.jpg)">
+<figDesc>Newly Designed Front Cover.</figDesc>
+</figure>
+
+
+<div1 id=tp type=TitlePage>
+
+
+<p><figure id=front rend="image(images/front.gif)"></figure>
+
+
+<titlePage>
+<docTitle>
+<titlePart>Doctrina Christiana</titlePart>
+<lb><titlePart type=sub>The First Book Printed in the Philippines.
+<lb>Manila, 1593. A Facsimile of the Copy in
+<lb>the Lessing J. Rosenwald Collection.
+<lb>Library of Congress, Washington.</titlePart>
+</docTitle>
+
+<byline>With an Introductory Essay
+
+<lb>By
+<lb><docAuthor>Edwin Wolf 2nd</docAuthor>
+</byline>
+</titlePage>
+
+
+<div1 id=ack type=Acknoledgements>
+<head>Acknowledgements</head>
+
+
+<p>I want here to express my thanks and appreciation to Mr. Lessing J. Rosenwald, through whose kindness this unique Doctrina was presented to the Library of Congress and with whom the idea of this publication originated. His interest and enthusiasm made possible my work, and his friendly advice and encouragement have been both valuable and heart-warming.
+
+<p>I also wish to thank others who have given me great assistance. They are Dr. A.S.W. Rosenbach to whom I continually turned for advice, Dr. Lawrence C. Wroth of the John Carter Brown Library and Dr. Leslie W. Dunlap of the Library of Congress who very kindly read over my manuscript and gave me the benefit of their suggestions and criticisms, Mr. David C. Mearns and Miss Elsie Rackstraw of the Library of Congress and Mrs. Ruth Lapham Butler of the Ayer Collection of the Newberry Library who so freely and generously made available to me the great collections of works on the Philippines in their libraries, Dr. John H. Powell of the Free Library of Philadelphia who helped me find reference books of the utmost importance, and the many librarians who courteously answered written queries about early Philippine material. <hi rend=sc>Edwin Wolf 2nd.</hi>
+
+
+<pb n=1>
+</front>
+<body>
+<div1 id=doctrina type=Chapter>
+<head>Doctrina Christiana</head>
+
+
+<p>The first book printed in the Philippines has been the object of a hunt which has extended from Manila to Berlin, and from Italy to Chile, for four hundred and fifty years. The patient research of scholars, the scraps of evidence found in books and archives, the amazingly accurate hypotheses of bibliographers who have sifted the material so painstakingly gathered together, combine to make its history a bookish detective story par excellence.
+
+<p>It is easy when a prisoner has been arrested and brought to the dock to give details of his complexion, height, characteristics and identifying marks, to fingerprint him and to photograph him, but how inadequate was the description before his capture, how frequently did false scents draw the pursuer off the right track! It is with this in mind that we examine the subject of this investigation, remembering that it has not been done before in detail. And, to complete the case, the book has been photographed in its entirety and its facsimile herewith published.
+
+<p>In studying the Doctrina Christiana of 1593 there are four general problems which we shall discuss. First, we shall give a physical description of the book. Secondly, we shall trace chronologically the bibliographical history of the Doctrina, that is, we shall record the available evidence which shows that it was the first book printed in the Philippines, and weigh the testimonies which state or imply to the contrary. Thirdly, we shall try to establish the authorship of the text, and lastly, we shall discuss the actual printing.
+
+<p>It hardly needs be told why so few of the incunabula of the Philippines have survived. The paper on which they were printed was one of <pb n=2>the most destructible papers ever used in book production. The native worms and insects thrived on it, and the heat and dampness took their slower but equally certain toll. Add to these enemies the acts of providence of which the Philippines have received more than their share&mdash;earthquake, fire and flood&mdash;and the man-made devastations of war, combined with the fact that there was no systematic attempt made in the Philippines to preserve in archives and libraries the records of the past, and it can well be understood why a scant handful of cradle-books have been preserved. The two fires of 1603 alone, which burned the Dominican convent in Manila to the ground and consumed the whole of Binondo just outside the walls, must have played untold havoc upon the records of the early missionaries. Perhaps the only copies of early Philippine books which exist today, unchronicled and forgotten, are those which were sent to Europe in the 16th, 17th and 18th centuries, and may now be lying uncatalogued in some library there.
+
+<p>One copy of this Doctrina was sent to Philip&nbsp;II by the Governor of the Philippines in 1593; and in 1785 a Jesuit philologist, Hervas y Panduro, printed Tagalog texts from a then extant copy. Yet, since that time no example is recorded as having been seen by bibliographer or historian. The provenance of the present one is but imperfectly known. In the spring of 1946 William H. Schab, a New York dealer, was in Paris, and heard through a friend of the existence of a 1593 Manila book. He expressed such incredulity at this information that his friend, feeling his integrity impugned, telephoned the owner then and there, and confirmed the unbelievable &ldquo;1593.&rdquo; Delighted and enthused, Schab arranged to meet him, found that he was a Paris bookseller and collector who specialized in Pacific imprints and was fully aware of the importance of the volume, and induced him to sell the precious Doctrina. He brought it back with him to the United States and offered it to Lessing J. Rosenwald, who promptly purchased it and presented it to the Library of Congress. Where <pb n=3>the book had been before it reached Paris we do not know. Perhaps it is the very copy sent to Philip&nbsp;II, perhaps the copy from which Hervas got his text. Indeed, it may have been churned to the surface by the late Civil War in Spain, and sent from there to France. In the course of years from similar sources may come other books to throw more light upon the only too poorly documented history of the establishment of printing in the Philippine Islands.
+
+
+<div2 type=Section>
+<head>The Physical Description</head>
+
+
+<p>Let us first examine the book as it appears before us. The title-page reads:
+
+<p><figure id=title rend="image(images/title.gif)"></figure>
+
+<p>The book, printed in Gothic letters and Tagalog<note n=1>Tagalog characters are said to be similar to old Javanese, Ignacio Villamot, <hi lang=es>La Antigua Escritura Filipina</hi>, Manila, 1922, p. 30. They were replaced under the Spanish occupation by roman letters, and are not now used. The best definitive grammar is Frank R. Blake&apos;s <hi>A Grammar of the Tagalog Language</hi>, New Haven, 1925, where, p. 1, he defines the language as follows: &ldquo;Tagálog is the principal language of Luzon, the largest island of the Philippine Archipelago. It is spoken in Manila and in the middle region of Luzon. Tagálog, like all the Philippine languages about which anything is known, belongs to the Malayo-Polynesian family of speech, which embraces the idioms spoken on the islands of Polynesia, Melanesia, and Malaysia, on the Malay peninsula, and on the island of Madagascar.&rdquo;</note> characters on paper made from the paper mulberry, now browned and brittle with age, consists of thirty-eight leaves, comprising a title-page as above, under a woodcut<note n=2>The woodcut, showing St. Dominic beneath a star holding a lily and a book, the usual symbols of this saint, and clad in the white habit and black cloak of his order, seems to be of oriental workmanship, differing vastly from contemporary Spanish and Mexican cuts of the same type. The clouds, for instance, are characteristically Chinese, and the buildings in the background more reminiscent of eastern temples than European churches.</note> of St. Dominic, with the verso originally blank, but in this copy bearing the contemporary manuscript inscription, <hi lang=es>Tassada en dos rreales</hi>, signed <hi>Juan de Cuellar</hi>; and seventy-four pages of text in Spanish, Tagalog transliterated into roman letters, and Tagalog in Tagalog characters. The size of the volume, which is unbound, is 9&frac18; by 7 inches, <pb n=4>although individual leaves vary somewhat due to chipping. Some of the leaves have become separated from their complements, but enough remain in the original stitching to indicate that the book was originally made up in four gatherings, the first of twelve leaves, the second of ten, the third of ten, and the fourth of six. Although the book is of the size called quarto, the method of printing must have been page by page, so it is doubtful that each sheet was folded twice in the usual quarto manner, but more probable that it was printed four pages to a sheet of paper approximately 9&frac18; by 14 inches, which was folded once.
+
+<p>The volume is printed throughout by the xylographic method, that is to say, each page of text is printed from one wood-block which was carved by hand. Along the inner margins of some pages are vertical lines which were made by the inked edge of the block, and the grain of the wood has caused striations to appear in the printed portions throughout. The unevenness of the impression indicates that the pages were printed in some primitive manner without the help of a conventional press.
+
+<p>The paper, which is one of the distinctive features of most old Oriental books, has been discussed at length by Pardo de Tavera in his study of early Philippine printing, and we can do no better than translate the relevant passage in full:
+
+
+    <q rend=block><p>&ldquo;I have said before that the material composition of our books is inferior. The imprints before 1830 were made on a paper called by some rice paper, by others silk paper, and by still others China paper, according to their taste. It is detestable, brittle, without consistency or resistance, and was called rice paper because it was supposed to be made from that grain. It was the only kind then used in the Philippines, not only for printing, but for all manner of writing, letters, etc., and it is even recorded that in 1874 when tobacco was a state monopoly, cigarettes were made with this paper, and that the Indians and Chinese preferred it (and perhaps they still do) to rag paper or other kinds, because of the horrible taste it gives the tobacco.
+
+    <p>&ldquo;In China they commonly made paper of bamboo, but more principally from cotton and a plant which travellers have cited only by its common name, which they transcribe in various ways, calling it <hi>kochu</hi>, <hi>kotsu</hi>, or <hi>kotzu</hi>. Today it is known that this plant is an ulmacea (<hi>Broussonetia papyrifera</hi>) from a mash of which they <pb n=5>still make cloth in Japan. Cotton paper is superior to it, and naturally more expensive; but the paper of inferior quality which was received in Manila, where nothing was imported regularly but common articles of low price, was of <hi>kotsu.</hi> As all Chinese-made paper it was coated with alum, the finer [the paper] the thicker [the coating], for the purpose of whitening it and making the surface smooth, a deplorable business, for it made the paper very moisture absorbent, a condition fatal in such a humid climate as in these islands. Moreover, as the alum used is impure and contains a large proportion of iron salts, the humidity and weather oxidize it which finally darkens the paper, so that Philippine books present a coloration which runs the gamut of tones from the color of bone to that of dark cinnamon.&rdquo;<note n=3>T.H. Pardo de Tavera, <hi lang=es>Noticias sobre La Imprenta y el Grabado en Filipinas</hi>, Madrid, 1893, pp. 9&ndash;10. Dard Hunter in <hi>Papermaking through Eighteen Centuries</hi>, New York, 1930, pp. 109&ndash;16, describes papermaking in China, and mentions the use of &ldquo;makaso&rdquo; or &ldquo;takaso,&rdquo; both species of the paper mulberry, as material for the making of paper. The paper mulberry&apos;s scientific name is <hi>Broussonetia papyrifera</hi>. Later, on p. 141, he speaks of the use by the Chinese of gypsum, lichen, starch, rice flour and animal glue for sizing.</note></q>
+
+
+<p>Because the Doctrina Christiana, which may well be translated &ldquo;The Teachings of Christianity,&rdquo; contains the basic elements of the religion which the missionaries were trying to spread among the unbaptized in the remote regions of the world, it was the most useful handbook they had. A summary of the contents of the present edition shows the fundamental character of the work. After a syllabary comes the Pater Noster, the primary and most popular prayer of Christianity. Then follow the Ave Maria, Credo, Salve Regina, Articles of Faith, Ten Commandments, Commandments of the Holy Church, Sacraments of the Holy Church, Seven Mortal Sins, Fourteen Works of Charity, Confession and Catechism. Here in a small compass is presented the simplest, most easily learned and most essential tenets of the Catholic Church.
+
+<p>So useful was the Doctrina considered as a guide for those who had just been, or were about to be, converted that the missionary fathers placed it in most cases foremost among the books necessary to have in print in a strange land. It is generally accepted today, although no extant copy is known, that the first book printed in Mexico<note n=4>The best short summaries in English of the beginnings of printing in Mexico are Henry R. Wagner&apos;s introduction to the exhibition catalogue of <hi>Mexican Imprints 1544&ndash;1600 In the Huntington Library</hi>, San Marino, 1939, pp. 3&ndash;10; and Lawrence C. Wroth, <hi>Some Reflections on the Book Arts in Early Mexico</hi>, Cambridge (Mass.), 1945.</note> in 1539 was a Doctrina in Mexican and Spanish. Recent research has shown that the second book printed by the pioneer Jesuit press at Goa, in India, in 1557 was St. Francis Xavier&apos;s <hi lang=pt>Doutrina Christão</hi><note n=5>J.B. Primrose, <hi>The First Press in India and Its Printers</hi>, The Library, 4th Series, 1939, XX, pp. 244&ndash;5.</note> in the Malay language, of which also no copy has yet been located. But there are copies of the first book to come from a South American press, another Doctrina<note n=6>José Toribio Medina, <hi lang=es>La Imprenta en Lima</hi>, Santiago de Chile, 1904&ndash;17, no. 1, p. 3.</note> printed in <pb n=6>the native and Spanish languages at Lima in 1584. So the choice of this book as the first to be printed at Manila follows a widespread precedent.
+
+<p>We have then a book, the Doctrina Christiana, in Spanish and Tagalog, corrected by priests of more than one order&mdash;and this is important in tracing the authorship of the work&mdash;and printed by the xylographic method with license at Manila at the Dominican Church of San Gabriel in 1593. So much we get from the title, and in itself it is a fairly complete story, but from the date of its issue until the present time that very fundamental information has not been completely recorded.
+
+
+
+<div2>
+<head>The Bibliographical History</head>
+
+
+<p>In tracing our clues down through the years, we find at the very beginning the most valuable evidence which has been uncovered, short of the book itself. From Manila on June 20, 1593, the Governor of the Philippines, Gomez Perez Dasmariñas, wrote a letter to Philip&nbsp;II of Spain in which he said:
+
+
+    <q rend=block><p>&ldquo;Sire, in the name of Your Majesty, I have for this once, because of the existing great need, granted a license for the printing of the Doctrinas Christianas, herewith enclosed&mdash;one in the Tagalog language, which is the native and best of these islands, and the other in Chinese&mdash;from which I hope great benefits will result in the conversion and instruction of the peoples of both nations; and because the lands of the Indies are on a larger scale in everything and things more expensive, I have set the price of them at four reales a piece, until Your Majesty is pleased to decree in full what is to be done.&rdquo;<note n=7>A contemporary copy of this letter&mdash;the original is not known&mdash;lay forgotten and unnoticed in the Archives of the Indies (1&ndash;1&ndash;3/25, no. 52), Torres, III, no. 4151, p. 83, until discovered there by Pascual de Gayangos, who called it to the attention of W.E. Retana, who first printed it in <hi lang=es>La Politica de Espana en Filipinas</hi>, no. 97, Oct. 23, 1894. It was later rediscovered independently by Medina who also printed it in his <hi lang=es>La Imprenta en Manila</hi>, p. xix. Gómez Pérez Dasmariñas, formerly corregidor of Murcia and Cartagena in Spain, was appointed governor of the Philippines in 1589, landed at Manila in May 1590, and remained in office until his death in October 1593.</note></q>
+
+
+<p>This states unequivocally that two books were printed at Manila some time before June 20, 1593, one of which was the Doctrina in Tagalog, and the other the same work in Chinese. Although we are chiefly concerned here with the former, the fact that they were produced at about the same time and probably at the same place makes it necessary to trace the history of both in order to reconstruct the circumstances surrounding <pb n=7>the production of the one. Of the Chinese Doctrina no copy has yet come to light, and except for two 1593 references, there are no records of its existence.
+
+<p>Another document<note n=8><hi lang=es>Relacion de lo que se ha escrito y escribe en las Filipinas fecho este año de 1593</hi>, an apparently inedited MS. in the A. of I., Index 9, no. 81, from which the passage was quoted by Retana in his edition of Antonio de Morga&apos;s <hi lang=es>Sucesos de las Islas Filipinas</hi>, Madrid, 1909, p. 425, and Manuel Artigas y Cuerva, <hi lang=es>La Primera Imprenta en Filipinas</hi>, Manila, 1910, p. xi. This may be the MS. listed by Torres, III, no. 4229, p. 91, as <hi lang=es>Breve sumario y memorial de apuntamientos de lo que se ha escrito y escribe en las Islas Filipinas</hi>, undated but probably 1593.</note> of 1593 verifies the information given in the letter of Dasmariñas, differing from it only in one detail. In the Archives of the Indies was found a manuscript account of 1593 listing books written in the Philippines, which says:
+
+
+    <q rend=block><p>&ldquo;There have been printed primers and catechisms of the faith, one in Spanish and Tagalog, which is the native language, and the other in Chinese, which are being sent to Your Majesty, the Tagalog priced at two reales and the Chinese at four, which is hoped will be of great benefit.&rdquo;</q>
+
+
+<p>The accounts of the printing of two Doctrinas contained in these documents confirm some of the information of the title and add a bit more. First, the letter says that the book was printed by permission given by the Governor, which agrees with the &ldquo;with license&rdquo; of the title, &ldquo;for this once because of the existing great need.&rdquo; By a royal cedula<note n=9><hi lang=es>Recopilacion de las Leyes de los Reynos de las Indias</hi>, Madrid, 1681, I, ff. 123v&ndash;124r, where they are Laws 1 and 3, Title XXIV, Book I.</note> of September 21, 1556, which was promulgated again on August 14, 1560, it had been ordered that Justices &ldquo;not consent to or permit to be printed or sold any book containing material concerning the Indies without having special license sent by our Royal Council of the Indies,&rdquo; and on May 8, 1584 this was implemented by the further order &ldquo;that when any grammar or dictionary of the language of the Indies be made it shall not be published, or printed or used unless it has first been examined by the Bishop and seen by the Royal Audiencia.&rdquo; This latter portion was applied specifically to the Philippines in a letter<note n=10>Medina, p. xxviii, from. <hi lang=es>Libro de provisiones reales</hi>, Madrid, 1596, I, p. 231.</note> from Philip&nbsp;II to the Audiencia of Manila, also dated May 8, 1584, to which further reference will be made. It can be gathered from Dasmariñas&apos; implied apology that he had never before given such a license, and, since he had arrived in the Philippines in 1590, that no books had been printed between that time and the licensing of the Doctrinas. It is, moreover, likely that if any similar books had been <pb n=8>printed during the administrations of his predecessors he would have mentioned the fact as a precedent for acting contrary to the cedulas.
+
+<p>According to Dasmariñas he had priced the books at four reales a piece, which followed the regular Spanish procedure, under which books were subject to price control. The Governor, it will be noted, also apologized for the high price he was forced to set, giving general high prices<note n=11>Inflation in the Philippines was discussed in a report sent by Bishop Salazar to the King in 1583, B. &amp; R., V, pp. 210&ndash;11, translated from Retana, <hi lang=es>Archivo del bibliófilo filipino</hi>, Madrid, 1895&ndash;97, III. no 1.</note> as his excuse. Yet, while the appraisal of four reales for this book was high compared to the prevailing scale in Spain, it was not high compared to prices allowed in Mexico. On June 6, 1542 the Emperor had given the Casa de Cromberger, the first printing-house in Mexico, permission<note n=12>Henry R. Wagner, <hi>The House of Cromberger</hi>, in <hi>To Doctor R[osenbach]</hi>, Philadelphia, 1946, pp. 234 &amp; 238, where he gives some interesting comparative figures: in 1542 the Casa de Cromberger could charge 17 maravedís a sheet; in Spain in 1552 Lopez de Gómara&apos;s <hi lang=es>Historia de las Indias</hi> was appraised at 2 maravedís a sheet; and in Mexico Vasco de Puga&apos;s <hi lang=es>Provisiones</hi> of 1563 was permitted to sell at the tremendous figure of one real or 34 maravedís a sheet.</note> to sell books printed there at seventeen maravedís a sheet, or exactly one half a real. If we assume that, although the Doctrina had been printed page by page, it was quarto in size and so appraised on the basis of eight pages to a sheet, we find that the price per sheet comes to about fourteen maravedís, or less than half a real. However, a contradiction occurs between the letter of Dasmariñas and this copy of the Doctrina, supported by the other 1593 document. On the verso of the title, Juan de Cuellar,<note n=13>Juan de Cuellar was mentioned in the Letter of Instruction given by Philip&nbsp;II to Gómez Pérez Dasmariñas on August 9, 1589, as among those &ldquo;who are men of worth and account&rdquo; in the Philippines and who should be provided for and rewarded accordingly, B. &amp; R., VII, p. 151, translated from the original MS. in the A. of I. (105&ndash;2&ndash;11), Torres, III, no. 3567, p. 17. Cuellar received a commission from Dasmariñas and signed various documents during his administration as secretary and notary. Antonio de Morga, <hi lang=es>Sucesos de las Islas Filipinas</hi>, Mexico, 1609, f. 13v, reports that Cuellar was one of two survivors of the ship on which Dasmariñas sailed in October 1593 as part of an expedition to conquer the fort of Terrenate in Maluco. On the second day out, while the ship was weather-bound at Punta del Acufre, the Chinese rowers mutinied, and only Cuellar, there described as the governor&apos;s secretary, and the Franciscan father, Francisco de Montilla, survived the ensuing massacre. They were set ashore on the coast of Ylocos, and made their way back to Manila. A similar account appears in Chapter XVI of Leonardo de Argensola&apos;s, <hi lang=es>Conqvista delas Islas Malvcas</hi>, Madrid, 1609. We have been able to find no subsequent record of Cuellar.</note> the Governor&apos;s secretary and the logical person to sign the official valuation, gives the price as two reales, and the 1593 account, while agreeing with the letter as far as the Chinese Doctrina is concerned, also lists the price of the Tagalog Doctrina as two reales. It is impossible to say what caused the discrepancy; perhaps it was a decision on Dasmariñas&apos; part to lower the cost, notwithstanding inflationary values, in order to make the book more readily available for the natives who were not economically as well off as the Chinese, or it could be that after the letter had been written it was noticed that the Chinese volume was larger than the Tagalog one, and some adjustment made. In any event, the price of this Doctrina was finally set at two reales, making it less than half the price allowed in Mexico fifty years before.
+
+<p>The evidence of the two 1593 documents would seem conclusive <pb n=9>with regard to printing in 1593, but witnesses were not long in appearing who stated something quite different. The earliest of these was Pedro Chirino,<note n=14>Colín, I, pp. 501, 507&ndash;14, 561&ndash;6.</note> a Jesuit priest, who came to the Philippines with Dasmariñas in 1590. He went back to Europe in 1602, and while there had a history of the Philippines printed at Rome in 1604. In 1606 he returned to the islands, where he died in 1635. He left unpublished the manuscript of another and more detailed history, dated 1610, which contains a most significant passage, where, after speaking of various early writers in native languages, he continues:
+
+
+    <q rend=block><p>&ldquo;Those who printed first were; P. Fr. Juan de Villanueva of the Order of St. Augustine [who printed] certain little tracts, and P. Fr. Francisco de San Joseph of the Order of St. Dominic [who printed] larger things of more bulk.&rdquo;<note n=15>Pedro Chirino, <hi lang=es>Primera parte de la Historia de la provincia de Philipinas de la Compañia de Ihs</hi>, unpublished MS. of 1610, from which the present passage was quoted by Retana, col. 25. For an account of the MS. see Santiago Vela, VI, p. 435n. Schilling, p. 214, demonstrates that according to the original punctuation the meaning is that the first printers were Villanueva and Blancas de San José, but with the shifting of a semi-colon it could be read to mean that the first printers were of the Order of St. Augustine. We can see no reason to shift the semi-colon, and have retained it in its original place.</note></q>
+
+
+<p>Concerning this Juan de Villanueva<note n=16>Retana, col. 26, said that he was able to find no information regarding Villanueva except for the listing of his name by Cano, p. 43, as having arrived in the Philippines at an unknown date. The destruction of the early records of the Augustinians when the English sacked Manila in 1762 accounts for the paucity of information, but there are a few references which throw some little light on the two Villanuevas. San Agustin, p. 212, says that when Herrara sailed for Mexico in 1569 he left in Cebú only &ldquo;P. Fr. Martin de Rada and two virtuous clerics, the one named Juan de Vivero, and the other Juan de Villanueva, who had come with Felipe de Salcedo.&rdquo; Salcedo had come back to Cebú in 1566. Francisco Moreno, <hi lang=es>Historia de la Santa Iglesia Metropolitana de Filipinas hasta 1650</hi>, Manila, 1877, p. 226, states that Villanueva came in 1566, and died shortly after 1569. San Antonio, I, p. 173, writes, &ldquo;Another cleric was the Licentiate Don Juan de Villanueva, of whom the only thing known is that he was a churchman and lived but a short time&mdash;and that after the erection of the church.&rdquo; This refers to the foundation of the church in Manila in 1571. Of the other Villanueva our information comes from Perez, p. 63.</note> very little indeed is known. From what has been recorded it would seem that there were two Augustinians of the same name who were in the Philippines before 1600. The first of these was a secular priest who came to Cebú about 1566, may have taken the Augustinian habit some time after his arrival, and died not long after 1569. The other Juan de Villanueva, the date of whose arrival is unknown, was in Lubao in 1590, in Hagonoy in 1593, and prior of Batangas from 1596 until his death in 1599. Of the two there can be no doubt but that Chirino referred to the second one. But, apart from Chirino&apos;s note, there is no record anywhere that works by him existed, nor do the Augustinian chroniclers themselves, except for the modern Santiago Vela who knew of Chirino&apos;s citation, mention him as a linguist or a writer. The only possibility is that between 1593 and 1599 Villanueva had printed some small xylographic books no copies and no further record of which have appeared.
+
+<p>As for Francisco de San Joseph, or Blancas de San José as he is more frequently called, there are other references to his part in the establishment of printing in the islands. From information doubtless obtained from <pb n=10>Diego Aduarte, then in Spain, Alonso Fernandez wrote in his ecclesiastical history, printed at Toledo in 1611:
+
+
+    <q rend=block><p>&ldquo;Father Fr. Francisco Blancas printed in the Tagalog language and characters a book of Our Lady of the Rosary in the year 1602, which was the first book that was printed there of that or any other material. After this he printed another of the sacraments in the language of the Philippines, in both characters, theirs and ours, from which the greatest results have been achieved.&rdquo;<note n=17>Alonso Fernández, <hi lang=es>Historia Eclesiastica de Nvestros Tiempos</hi>, Toledo, 1611, pp. 303&ndash;4. The book referred to here is called <hi lang=es>De los mysterios del Rosario de nuestra Señora</hi> by Jacques Quétif and Jacques Echard, <hi lang=es>Scriptores Ordinis Praedicatorum</hi>, Paris, 1719, II, p. 390; and <hi lang=es>Devotion del Santisimo Rosario de la Bienaventurada Virgen</hi> by Vicente Maria Fontana, <hi lang=es>Monvmenta Dominicana</hi>, Rome, 1675, p. 586.</note></q>
+
+
+<p>Two years later the same author published at Madrid an account<note n=18>Fernández, <hi lang=es>Historia de los insignes Milagros qve la Magestad Diuina ha obrado por el Rosario santissimo de la Virgen soberana, su Madre</hi>, Madrid, 1613, f. 216. I have been unable to locate a copy of this book in the United States, but the passage is printed in Retana, <hi lang=es>Aparato Bibliográfico de la Historia General de Filipinas</hi>, Madrid, 1906, I, pp. 64&ndash;5. It was first cited in modern times by Pedro Vindel, <hi lang=es>Catálogo</hi>, Madrid, 1903, III, no. 2631.</note> of the miracles performed by the Rosary of the Virgin, in which he included a list of &ldquo;Of some writers of the Order of St. Dominic who were living in this year 1612,&rdquo; and gave the same information as above, adding only that the printing took place in Bataan.
+
+<p>Diego Aduarte,<note n=19>A sketch of the life of Aduarte was added to his history by Gonçalez, II, pp. 376&ndash;81, and a notice also appears in Ramon Martínez-Vigil, <hi lang=es>La Orden de Predicadores ... seguidas del Ensayo de una Bibliotheca de Dominicos Españoles</hi>, Madrid, 1884, p. 229.</note> whose history of the Dominican province of the Philippines is one of the best contemporary ones written, bears out these statements of which he was most probably the source. Aduarte came to the islands in company with his close friend Blancas de San José in 1595, went back to Spain as procurator of his order in 1607, and returned to Manila in 1628, staying in the Orient until his death in 1636. His history was continued and edited after his death by a fellow Dominican, Domingo Gonçalez, who had it printed in 1640. Summarizing the life and accomplishments of Blancas de San José, Aduarte wrote:
+
+
+    <q rend=block><p>&ldquo;So he was sent to Bataan, which is near there [Manila], where he learned the language of the Indians, called Tagalog, which is the most common in this country and is used among the Indians for many leagues around the city. So rapid was his study of the language that he began to preach in it within three months, and could teach it to others in six.... And believing that he was the instrument needed to bring the holy gospel to the Indians, he spared no pains to investigate the fitness of their words, the way to use them, and all the rest so that he could succeed in mastering it.... He wrote many books of devotion for them, and since there was no printing in these islands, and no one who understood it or who was a journeyman printer, he planned to have it done through a Chinaman, a good Christian, who, seeing that the books of P. Fr. Francisco were sure to be of great use, bestowed so much care upon this undertaking that he finally succeeded, aided by those who told him whatever they knew about it, in learning everything necessary to do printing; and he printed <pb n=11>these books. . . . He [Blancas de San José] printed a grammar to learn the Tagalog language, a memorial of the Christian life, a book on the four last things, another on the preparation for the communion, a confessionary, another on the mysteries of the Rosary of Our Lady, and another to teach the Tagalog Indians the Spanish language, and he left many very pious and curious works in the language of these Indians.&rdquo;<note n=20>Aduarte, II, pp. 15&ndash;18.</note></q>
+
+
+<p>Blancas de San José,<note n=21>Artigas, <hi>op. cit.</hi>, pp. 3&ndash;22, stresses the part played by him in establishing printing and gives much information regarding this father. There, referring to the <hi lang=la>Acta Capitulorum Provincialium provinciae Sanctissimi Rosarii Philippinarum</hi>, Manila, 1874&ndash;77, Artigas traces the career of Blancas de San José as follows: in Abucay from May 24, 1598 until April 27, 1602; at San Gabriel in Binondo from April 27, 1602 until May 4, 1604; as Preacher-General of the order at the Convent of Santo Domingo in Manila from 1604 to 1608; back at Abucay from April 26, 1608 until May 8, 1610; and at San Gabriel again from May 8, 1610 until May 4, 1614.</note> as we have noted, came to the Philippines in 1595. He was at Abucay in Bataan from 1598 until 1602, and then spent several years in and about Manila, preaching to the Indians and the Chinese, whose language he also mastered. In 1614 he set out for Spain, but died on the voyage before reaching Mexico. Of the books which he is said to have had printed, only two are known to be extant, the <hi lang=es>Arte y Reglas de la Lengva Tagala</hi><note n=22>Medina, no. 8, p. 7. A copy of this book and an unique copy of the recently discovered <hi lang=es>Ordinationes</hi> of 1604, see note 127, are in the Library of Congress. Both books are entirely typographical, and the Tagalog in the 1610 volume has been transliterated. These two and the present Doctrina are, so far as I have been able to find out, the only Philippine imprints before 1613 in the United States.</note> and the <hi lang=tl>Librong Pagaaralan nang manga Tagalog nang uicang Castilla</hi><note n=23>Medina, no. 14, p. 11. The text was written by Thomas Pinpin, who appears as the printer of the former book, and a confessionary by Blancas de San José, who probably edited the volume, is included.</note> (or <hi lang=es>Libro en qve aprendan los Tagalos, la lengua Castellana</hi>), both printed at Bataan in 1610, and until the discovery of the present Doctrina and the <hi lang=es>Ordinationes</hi> of 1604 the earliest surviving Philippine imprints known.
+
+<p>We have not cited here in detail the account of Juan Lopez<note n=24>Juan Lopez, <hi lang=es>Quinta Parte de la Historia de San Domingo</hi>, Valladolid, 1621, ff. 246&ndash;51.</note> in the fifth part of his history of the Dominicans, because, although it was printed nineteen years before the appearance of Aduarte&apos;s work, the information therein contained regarding the Philippines was acknowledgedly obtained from the unfinished manuscript which Aduarte had with him in Spain. The pertinent passages add nothing to Aduarte&apos;s information, and even the wording is reminiscent of his.
+
+<p>The first suggestion that early Philippine books may have been printed from wood-blocks occurred in Quétif and Echard&apos;s bibliography of Dominican writers printed at Paris in 1719. There, after listing eight works by Blancas de San José, they add:
+
+
+    <q rend=block><p>&ldquo;He published all these in the Philippines with the help of a Chinese Christian using Chinese blocks, for in his day European typographers had not yet arrived in those islands, nor did they have types for their language.&rdquo;<note n=25>Quétif and Echard, <hi>op. cit.</hi>, II, p. 390. This same statement was made in Antonio de León Pinelo, <hi lang=es>Epitome de la Biblioteca Oriental y Occidental, Nautica, y Geografica</hi> (ed. Antonio González de Barcia), Madrid, 1737&ndash;38, col. 737, and was reprinted almost word for word by José Mariano Beristain y Sousa, <hi lang=es>Bibliotheca Hispano-Americana Septentrional</hi>, Mexico, 1883&ndash;97, I, p. 177.</note></q>
+
+
+<pb n=12><p>This was an amazing suggestion, for as far as we know the bibliographers who made it had not actually seen the books; nor is it entirely true. The first two works listed are two books we know were printed typographically in 1610. The sixth is <hi lang=es>De los mysterios del Rosario de nuestra Señora Tagalice</hi>, the book referred to by Fernández as having been printed in 1602, and generally accepted as being from movable type, although no copy has been discovered to prove it. And yet, it is not at all impossible that some time before 1602 Blancas de San José had some of his writings printed from blocks. In any event, the idea, later developed by Medina and Retana, that xylography was used before a real printing-press was established, may have come from this not wholly accurate note.
+
+<p>For almost a hundred and fifty years no historian or bibliographer wrote anything to challenge the basic affirmations of Chirino, Fernández and Aduarte. In the middle of the 18th century, Lorenzo Hervas y Panduro,<note n=26>A fairly complete biography is given by Viñaza, pp. 112&ndash;7, where he points out that several of the major Jesuit biographers have erroneously stated that Hervas went to America some time before 1767.</note> a Jesuit, was forced by the expulsion of the Jesuits from Spain to seek refuge in the Papal States, and took up residence at Cesena. There he began work on a tremendous universal history of the spiritual development of man, into which he wove the results of his philosophical, social and linguistic studies. These last were of particular importance, and Hervas is regarded as the true founder of the science of linguistics and comparative philology. In 1785 he published the eighteenth volume of his massive work, the <hi lang=it>Origine, formazione, meccanismo, ed armonia degl&apos; idiomi</hi>, in which he printed a Tagalog Ave Maria as written in 1593, with the note:
+
+
+    <q rend=block><p>&ldquo;The Ave Maria in the Tagalog of 1593 is to be read in the Tagalog-Spanish Doctrina Christiana which was printed in Tagalog and roman characters by the Dominican fathers in their printing-house at Manila in the year 1593.&rdquo;<note n=27>Lorenzo Hervas y Panduro, <hi lang=it>Origine, formazione, meccanismo, ed armonia degli&apos; idiomi</hi>, Cesena, 1785, p. 88.</note></q>
+
+
+<p>In 1787 he finished his twenty-first volume, <hi lang=it>Saggio pratico</hi>,<note n=28>Hervas, <hi lang=it>Saggio Pratico delle lingue, Con prolegomeni, e una raccolta di orazioni Dominicali in più di trecento lingue, e dialetti</hi>, Cesena, 1787, pp. 128&ndash;9. Although Schilling, p. 208, says that Hervas had a copy of the 1593 Doctrina before him, which &ldquo;had been lent or given&rdquo; by Bernardo de la Fuente, Hervas merely says that he took his information &ldquo;from the best documents, which showed the grammar; and the Tagalog and Visayan dictionary were given me by Messrs. D. Antonio Tornos and D. Bernardo de la Fuente.&rdquo; There is no doubt, however, but that Hervas had a copy of the Doctrina, or accurate and extensive transcripts from a copy known to one of his friends.</note> which was another philological study, including the Pater Noster in over three hundred languages and dialects, among them Tagalog, again from the 1593 Doctrina. Here, then, is ample proof that a copy of this book was known <pb n=13>to Hervas in 1785, and the only information which his loose transcription of the title failed to give was that the volume was &ldquo;corrected by members of the orders,&rdquo; that it was printed with license, and that it was printed at San Gabriel.
+
+<p>At the beginning of the following century two German scholars, familiar with Hervas&apos; writings, noted the 1593 Doctrina. Franz Carl Alter,<note n=29>Franz Carl Alter, <hi lang=de>Ueber die Tagalische Sprache</hi>, Vienna, 1803, p. vii. Alter speaks of having had extensive correspondence with Hervas.</note> in his monograph on the Tagalog language, printed the Ave Maria from the text which had appeared in 1785, and Johann Christoph Adelung,<note n=30>Johann Christoph Adelung, <hi lang=de>Mithridates oder allgemeine Sprachenkunde mit dem Vater Unser als Sprach probe in beynahe fünfhundert Sprachen und Mundarten</hi>, Berlin, 1806, I, pp. 608&ndash;9.</note> in his <hi lang=de>Mithridates</hi>, a comprehensive study of languages, included the Tagalog Pater Noster from the <hi lang=it>Saggio pratico</hi> of 1787. The latter also listed in a short bibliography of the Tagalog language the Doctrina of 1593, giving exactly the same information about it that Hervas had. Neither of these men apparently saw a copy of the book, limiting themselves to extracts from Hervas, but they perpetuated an earlier reference of the utmost importance.
+
+<p>Shortly after the two Germans published their notices of the 1593 Doctrina an entry appeared of a book printed at Manila in 1581. José Mariano Beristain y Sousa, a learned Mexican writer, issued in 1819&ndash;21 a bibliography of Spanish-American books, in which he listed alphabetically the authors, giving a short biography of each and adding a list of his works. Under Juan de Quiñones we find:
+
+
+    <q rend=block><p>&ldquo;&lsquo;Arte y Vocabulario de la Lengua Tagala,&rsquo; Imp. en Manila, 1581.&rdquo;<note n=31>Beristain, <hi>op. cit.</hi>, II, p. 464. The first edition was published in 1819&ndash;21, but we have used the second for our quotations.</note></q>
+
+
+<p>No specific authority is given for this entry, but in his sketch of the life of Quiñones Beristain cited as sources, Juan de Grijalva, Nicolás Antonio, Gaspar de San Agustin, and José Sicardo. It would seem logical that one of these must have mentioned such a work as printed in Manila in 1581, but in tracing down the sources no such precise notice is found.
+
+<p>Grijalva simply said that Quiñones &ldquo;concerned himself with Tagalog and made a vocabulary and grammar of it.&rdquo;<note n=32>Juan de Grijalva, <hi lang=es>Cronica de la orden de N.P.S. Augustin de Nueva Espana</hi>, Mexico, 1624, f. 199v.</note> Antonio<note n=33>Nicolás Antonio, <hi lang=es>Bibliotheca Hispana Nova</hi>, Madrid, 1783, I, p. 764. The first edition was Rome, 1672, but I could locate no copy in this country.</note> referred to <pb n=14>Grijalva, and carried the matter no further. San Agustin, describing the Franciscan chapter of 1578, wrote:
+
+
+    <q rend=block><p>&ldquo;It was determined moreover in this chapter that P. Fr. Juan de Quiñones, prior of the Convent of Taal in Tagalos, and Fr. Diego de Ochoa, prior of Bacolor in Pampanga, should compose and fashion grammars, dictionaries, and confessionaries in the two languages [respectively Tagalog and Pampanga] in which they had ventured; which they executed very promptly and well, and these were of great use to those who came to these islands, for they had these by which they could study the languages.&rdquo;<note n=34>San Agustin, p. 352. On pp. 443&ndash;4 referring to Grijalva and Herrera, he says merely that Quiñones &ldquo;was very learned in the Tagalog language, and wrote a grammar and dictionary of it.&rdquo;</note></q>
+
+
+<p>Later, San Agustin, again mentioning Quiñones, referred to Grijalva, and added as an additional source for his information Tómas de Herrera. Sicardo<note n=35>&ldquo;He succeeded in learning that language with such perfection that he composed a treatise, as a light and guide for the new missionaries, and a vocabulary, with which in a short time they could instruct those islanders in the mysteries of the faith,&rdquo; Medina, p. xxvii, assumed that this referred to José Sicardo, <hi lang=es>La Cristiandad del Japon</hi>, Madrid, 1698, where he could find nothing about Quiñones, but Beristain cited specifically his <hi lang=es>Historias de Filipinas y Japon</hi>, which Santiago Vela, VI, p. 441, thinks must be his additions to Grijalva, including a life of Quiñones, which San Agustin used and quoted from. The quotation here is from San Agustin, p. 442, where Sicardo is given as the source.</note> added nothing new. Herrera, not cited directly by Beristain, may however have been the source from which the &ldquo;Imp.&rdquo; of his entry came. Herrera wrote:
+
+
+    <q rend=block><p>&ldquo;He [Quiñones] was the first to have learned the Tagalog language of which he published a grammar and dictionary as an aid to the ministers of the gospel.&rdquo;</q>
+
+
+<p>If Beristain read this, he may have been misled by the Latin of &ldquo;published,&rdquo;<note n=36>Tomas de Herrera, <hi lang=la>Alphabetvm Avgvstinianvm</hi>, Madrid, 1644, I, p. 406, according to P. &amp; G., p. xxiv.</note> <hi lang=la>in lucem edidit</hi>, which may indeed mean printed and published, but also means quite properly published in the sense of written in manuscript and copied and circulated. We agree with Schilling<note n=37>Schilling, p. 204.</note> that this latter meaning was the one intended. One other statement that Quiñones&apos; works were printed may derive from the same misunderstanding. About the year 1801 Pedro Bello wrote an account, still in manuscript and unpublished, of the writings of the Augustinians. His remarks on Quiñones, first printed by Santiago Vela<note n=38>Pedro Bello, <hi lang=es>Noticia de los escritores y sus obras impresas y manuscritas en diferentes idiomas por los religiosos agustinos calzados hasta 1801</hi>, unpublished MS., from which the citation is given by Santiago Vela, VI, p. 441.</note>, we believe are only an extension of Herrera&apos;s <hi lang=la>in lucem edidit</hi>.
+
+<p>This same confusion in terminology has been used<note n=39>P. &amp; G., pp. xxv&ndash;xxvi.</note> to support Beristain&apos;s claim by introducing as evidence the letter of Philip&nbsp;II of May 8, 1584. Salazar, the Bishop of Manila, probably shortly after the Synod of 1582, had written the King a letter, now unfortunately lost, in which <pb n=15>he spoke of a decision to standardize linguistic works. In answer to the Bishop, the following letter in the form of a royal cedula was sent:
+
+
+    <q rend=block><p>&ldquo;To the President and Judges of my Royal Audiencia situated in the city of Manila in the Philippine Islands.&mdash;It has been told me on behalf of Don Fray Domingo de Salazar, Bishop of that place, that it was agreed that no priest might make a grammar or vocabulary, and that if it were made it might not be published before being examined and approved by the said Bishop, because otherwise there would result great differences and disagreements in the doctrine; and this having been seen by my Council of the Indies, it was agreed that I should order this my cedula which decrees that when any grammar or vocabulary be made it shall not be published or used unless it has first been examined by the said Bishop and seen by this Audencia.&rdquo;<note n=40>Medina, p. xxviii, who gives as source the A. of I. and <hi lang=es>Libro de provisiones reales</hi>, Madrid, 1596, I, p. 231. In his note Medina says that this cedula was not in the <hi lang=es>Recopilacion</hi>, but referring back to the note on p. xxiv, we find that he there prints a law of the same content and date, cited as Law 3, Title XXIV, Book 1 of the <hi lang=es>Recopilacion</hi>, where we have seen it, with the extremely significant addition, &ldquo;it shall not be published, <hi>or printed</hi>, or used.&rdquo; If this phrase was not included in the original cedula sent to Manila, but added when printed as applying to all the Indies, it is important evidence that the King felt an admonition against printing unnecessary where no facilities for printing existed.</note></q>
+
+
+<p>Here again the word <hi lang=es>publicado</hi> is brought forth to prove that the letter referred to printed works, but here again the term is equally applicable to manuscript works in common use and generally available.
+
+<p>Further evidence that there was no printing as early as 1581 is to be found in a letter<note n=41>Retana, col. 10, cited from the original MS. in the A. of I. (68&ndash;1&ndash;42), Torres, II, no. 3211, p. 150.</note> from Juan de Plasencia, a Tagalist of great renown, to the King, dated from Manila, June 18, 1585, in which he reported on the state of missionary work in China and Japan, and added that he had written a grammar and a declaration of the whole Doctrina in the most common language of the Philippines, and that he was then making a dictionary, concluding by asking the King to send decrees ordering those works to be printed in Mexico at the expense of the Exchequer. Is it likely that Plasencia would have so written if an <hi lang=es>Arte y Vocabulario</hi> had been printed four years earlier? Furthermore, San Antonio, recording the book on the customs and rites of the Indians written by Plasencia at the request of the Governor Santiago de Vera, and dated October 24, 1589, said that it was not printed &ldquo;because printing houses had not yet come to this country.&rdquo;<note n=42>San Antonio, II, p. 297. This work, treated at length by San Antonio, is proof of the high esteem in which Plasencia was held as a Tagalist. It was incorporated in a document of Governor Francisco Tello, dated July 13, 1599, now in the A. of I. (67&ndash;6&ndash;18), and first printed in the appendix to Santa Inés, II, pp. 592&ndash;603, and translated in B. &amp; R., VII, pp. 173&ndash;96.</note>
+
+<p>We then conclude with regard to Beristain&apos;s entry, that although there existed in manuscript an <hi lang=es>Arte y Vocabuldrio Tagalo</hi> by Juan de Quiñones, there is no evidence of the existence of any book printed for <pb n=16>him from wood-blocks or in type. Santiago de Vela<note n=43>Santiago Vela, VI, pp. 442&ndash;3. His study of the questionable <hi lang=es>Arte</hi> of 1581 is the most thorough and detailed yet written.</note> suggests the possibility that there might have been a xylographic <hi lang=es>Arte</hi> of 1581, but Schilling<note n=44>Schilling, p. 205.</note> questions this in the face of the complete lack of reference to such a printed work by any 17th or 18th century writer, and the tenuous notices of Bello and Beristain; yet to say categorically that no such work was printed would be foolhardy in the face of the scanty early records and the appearance of this Doctrina, a single copy of which has just been discovered.
+
+<p>The first important work devoted solely to the early history of the Philippine press was by T.H. Pardo de Tavera, who in 1893 published his study of printing and engraving in the Philippines. He there recorded a 1593 Doctrina, but adamantly refused to accept it on the hearsay evidence of others. His account is valuable because it shows that there may have been a copy of the Doctrina in Java in 1885, and so we quote from it at some length:
+
+
+    <q rend=block><p>&ldquo;A learned Dutch orientalist, Dr. J. Brandes, wrote me in 1885 from Bali-Boeleleng (Java) telling me that in 1593 at Manila there was printed a Doctrina Christiana in Spanish-Tagalog, with the proper characters for the latter language. Other orientalists, at the last Congress in London in 1891, gave me the same information. Nonetheless, no one told me where he had read such a thing, nor much less that he had managed to see such a book, although inspecting a rare book which I acquired in Paris (Alter, <hi lang=de>Ueber die tagalische sprache</hi>, Vienna, 1803), I saw that the author cited such a Doctrina Christiana and said that he knew of its existence through Abbé Hervas. This is an error, and without doubt such a Doctrina was in manuscript, because in 1591 [he should have said 1593] there was no press in Manila nor in any part of the archipelago, and today we know for certain and positively that the first book issued there appeared in 1610.&rdquo;<note n=45>Pardo de Tavera, <hi>op. cit.</hi>, pp. 8&ndash;9. After quoting the latter part of this passage, Medina, p. xviii, adds a quizzical note, &ldquo;I want to cite the opinion of so distinguished a student of the Philippines because it shows how tangled and confused is the information concerning the primitive Philippine press, even among men best informed on the subject.&rdquo;</note></q>
+
+
+<p>Pardo de Tavera was the first to call attention to Alter, and through him to Hervas, and in all probability the orientalists at the London Congress had seen the Doctrina cited by one of these or Adelung. But he rejects that evidence in no uncertain terms. Mitigating somewhat his assurance, he speaks following the above-quoted passage of printing in China, and <pb n=17>differentiates between xylographic and typographic printing, and since he was obviously thinking in terms of printing on a press with movable type his conclusions are not too extreme.
+
+<p>In 1896 appeared José Toribio Medina&apos;s <hi lang=es>La Imprenta en Manila</hi>, which was up to then the best, most complete and most scholarly work on early Philippine printing, and is today with its subsequent additions and corrections the standard bibliography of the subject. There Medina cited most of the authorities we have already quoted, the letter of Dasmariñas, Fernández&apos; <hi lang=es>Historia eclesiastica</hi>, Aduarte, Adelung, Beristain and Pardo de Tavera. Then, basing his conclusions strongly on the Dasmariñas letter and the note of Adelung, he listed<note n=46>Medina, nos. 1 and 2, p. [3].</note> as number one in his bibliography the Doctrina of 1593 in Spanish and Tagalog, and as number two the Doctrina in Spanish and Chinese of the same year. This is a verdict which has stood the test of time, and one that is just now confirmed by the discovery of the book itself. Two points, however, in his survey should be noted. In his discussion of the printing and the authorship Medina does not emphasize the Dominican origin of the book, although he does say that &ldquo;it does not appear bold to us to suppose that the imprint of these Doctrinas ought to be the Hospital of San Gabriel in this village [Binondo],&rdquo;<note n=47>Medina, p. xix.</note> and faithfully copies Adelung&apos;s imprint notice, &ldquo;in the Dominican printing-house,&rdquo; in his listing of the book. The other point is that he says in his introduction and repeats in his entry that the Doctrina had a Latin as well as Spanish and Tagalog texts, an erroneous translation of Adelung&apos;s &ldquo;<foreign lang=de>mit lateinische und tagalische Schrift</foreign>.&rdquo; He was hesitant as are all bibliographers, who must perforce record the probable existence of a book a copy of which they have never seen, in committing himself as to whether it was printed from blocks or from type or by a combination of the two methods.
+
+<p>More positive and more succinct than Medina was T.E. Retana whose earlier researches<note n=48>Retana had published many of his findings in <hi lang=es>La Politico de España en Filipinas</hi>, Madrid, 1891&ndash;98; in his edition of Joaquín Martínez de Zuñiga, <hi lang=es>Estadismo de las Islas Filipinas</hi>, Madrid, 1893; and in the <hi lang=es>Archivo del Bibliófilo Filipino</hi>, Madrid, 1895&ndash;97.</note> into the history of the Philippines Medina <pb n=18>acknowledgedly made use of, and who in 1897 published his <hi lang=es>La Imprenta en Filipinas, Adiciones y Observaciones a La Imprenta en Manila</hi>. He took the material of Medina, added the evidence of Chirino and Plasencia, and resummarized the problem. The letter of Dasmariñas showed conclusively that a Doctrina was printed in 1593. Chirino said that the first two whose works were printed were Juan de Villanueva and Blancas de San José. Fernández stated positively that the first book printed in the Philippines was the book of Our Lady of the Rosary by Blancas de San José printed at Bataan in 1602. Aduarte supported this without mentioning a title, place or date of printing. If we are to accept all these statements as incontrovertible, how can the apparent contradictions be reconciled? The answer had already been hinted at, but Retana solved the problem with amazing acumen, and arrived at four conclusions, which are here printed in his own words:
+
+
+    <q rend=block><p>&ldquo;A&mdash;That the Doctrinas of 1593, though printed at Manila, were not executed in type, but by the so-called xylographic method;
+
+    <p>B&mdash;That the initiative for the establishment of <hi>typography</hi> is owed to P. Fr. Francisco Blancas de San José;
+
+    <p>C&mdash;That the first <hi>typographer</hi> was the Chinese Christian Juan de Vera at the instigation of the said Father San José;
+
+    <p>D&mdash;That the first <hi>typographical</hi> printing of this Dominican author is of the year 1602.&rdquo;<note n=49>Retana, cols. 7&ndash;8. We shall speak of Juan de Vera later.</note></q>
+
+
+<p>It is not difficult to say with the book itself in front of us, that it is an example of xylographic printing, but it was a great feat on the part of Retana, who had never seen a copy, to resolve apparently irreconcilable differences of opinion on the part of several unquestioned authorities by deducing that it was all a matter of semantics&mdash;what did <hi>printing</hi> mean? As for the sprite of 1581 introduced by Beristain, Retana dismissed it on the grounds of insufficient evidence. In a word, he concluded that the first book issued in the Philippines was a Doctrina printed from wood-blocks in 1593.
+
+<pb n=19><p>All subsequent writers on the subject have derived their information from the sources we have already mentioned, and to a great degree have been influenced by the findings of Medina and Retana. The Rev. Thomas Cooke Middleton<note n=50>Thomas Cooke Middleton, <hi>Some Notes on the Bibliography of the Philippines</hi>, Philadelphia, 1900, pp. 32&ndash;33.</note> in 1900 confessed that he did not know what the first book printed was. Pardo de Tavera maintained his old <corr sic=intransigeance>intransigence</corr>, when in the introduction to his bibliography for the Library of Congress in 1903 he wrote that Medina&apos;s affirmation that printing took place in 1593 &ldquo;loses all validity in the face of the categorical statement of F. Alonso Fernández.&rdquo;<note n=51>Pardo de Tavera, <hi lang=es>Biblioteca Filipina</hi>, Washington, 1903, pp. 9&ndash;10.</note> Medina did not comment further in his <hi lang=es>Adiciones y Ampliaciones</hi><note n=52>Medina, <hi lang=es>La Imprenta en Manila desde sus Orígenes hasta 1810 Adiciones y Ampliacones</hi>, Santiago de Chile, 1904.</note> of 1904, yet when the same year Pérez and Güemes<note n=53>P. &amp; G., pp. xxi&ndash;xxvi.</note> published their additions to and continuation of Medina, bringing his bibliography down to 1850, they resurrected the 1581 <hi lang=es>Arte</hi>, but added no new evidence to prove their case. Blair and Robertson, in their tremendous, collective history of the Philippines, did not include a list of Philippine imprints in their bibliography,<note n=54>B. &amp; R., LIII, p. 11.</note> but referred readers to Medina and Retana with whom they agreed. To celebrate the three hundredth anniversary of typographical printing in the Philippines Artigas y Cuerva<note n=55>Artigas, <hi>op. cit.</hi> He admitted that the celebration should have been held in 1902.</note> wrote a study which emphasized the part played by Blancas de San José, but did not deny the existence of the 1593 Doctrina. Retana<note n=56>Retana, <hi lang=es>Orígenes de la Imprenta Filipina</hi>, Madrid, 1911. Retana had also published between 1897 and 1911 several other books which contained some information about the early Philippine press, the <hi lang=es>Aparato Bibliográfico</hi> in 1906 and his edition of Morga in 1909, both of which have already been cited.</note> in 1911 brought his work on the subject up to date, but retained all his major conclusions. In Palau&apos;s standard bibliography of Spanish books we find the Doctrinas called &ldquo;the two earliest books known to have been printed in Manila.&rdquo;<note n=57>Antonio Palau y Dulcet, <hi lang=es>Manuel del Librero Hispano-Americano</hi>, Barcelona, 1923&ndash;37, III, p. 72.</note> Finally, the most thorough recent work on the subject is to be found in Schilling&apos;s<note n=58>Schilling, <hi>op. cit.</hi></note> survey of the early history of the Philippine press published in 1937. There is little that can be added to the evidence uncovered by these modern writers, but the appearance of the book itself enables us to say with certainty some things which they were able only to surmise. However, as regards the authorship and the circumstances and place of printing we are able, from the information given on the title, to carry the investigation somewhat further.
+
+
+<pb n=20>
+<div2>
+<head>The Authorship of the Text</head>
+
+
+<p>The title tells us that the book was &ldquo;corrected&rdquo; by the priests of more than one order, and since it was printed by the Dominicans, we can assume that the ultimate responsibility for the preparation of the text in consultation with friars of other orders also lay in their hands. Our problem then is to discover what texts were available to them in 1593 and who were the priests who formed the editorial board. We have included in this study also the origins of the Chinese text, for the two Doctrinas appeared at the same time, and as we shall see the same Dominicans were probably responsible for the production and preparation of both the Tagalog and the Chinese texts. During the period under discussion there were priests of four orders active in the islands, and so we shall speak in turn of the Augustinian, Franciscan, Jesuit and Dominican fathers who might have written or worked on the Doctrinas printed in 1593.
+
+
+<div2>
+<head>The Augustinians</head>
+
+<p>The first priests to come to the Philippines were six Augustinians who accompanied Legazpi on the expedition which in 1565 established the first permanent European settlement in the islands. Among them was Martin de Rada, who was one of the most important and influential priests during the early days of the Spanish colony, and who was the first linguist of note to work in the Philippines. The first language he learned was Visayan,<note n=59>Chirino, p. 3, writes that he was &ldquo;the first who made converts to Christianity in the Philippines, preaching to them of Jesus Christ in their own tongue&mdash;of which he made the first vocabulary, which I have seen and studied;&rdquo; and Juan de Medina (who originally wrote his history in 1630), p. 54, says that in visiting Cebú in 1612 he &ldquo;saw a lexicon there, compiled by Father Fray Martin de Rada, which contained a great number of words.&rdquo; Grijalva, <hi>op. cit.</hi>, f. 124V, writes that Rada &ldquo;by the force of his imaginative and excellent ability learned the Visayan language, as he had learned the Otomi in this land [Mexico], so that he could preach in it in five months.&rdquo;</note> native to the island of Cebú where the Spaniards first landed, but he also learned Chinese. In May 1572 he was elected provincial of his order, and in June 1575 he went with Jerónimo Marín, as ambassador to China, being &ldquo;the first Spaniard who entered into that said kingdom.&rdquo;<note n=60>Pérez, p. 5.</note> In preparation for the voyage, we are told by González de Mendoza, whose famous and popular history of China first printed in 1585 derives in a great measure from information brought back by Rada, that Rada <pb n=21>&ldquo;began with great care &amp; studie to learne that language [Chinese], the which he learned in few daies: &amp; did make thereof a dictionarie.&rdquo;<note n=61>Juan González de Mendoza, <hi>The Historie of the great and mightie kingdom of China ... Translated out of Spanish by R. Parke</hi>, London, 1588, p. 138. The original edition of 1585 said he made an &ldquo;arte y vocabulario.&rdquo; We must take the phrase &ldquo;in few daies&rdquo; in a comparative sense, but that an Augustinian, probably Rada, knew some Chinese as early as July 30, 1574 is shown by a letter from Governor Lavezaris to the King from Manila, sending him &ldquo;a map of the whole land of China, with an explanation which I had some Chinese interpreters make through the aid of an Augustinian religious who is acquainted with the elements of the Chinese language,&rdquo; B. &amp; R., III, p. 284, from the original MS. in the A. of I. (67&ndash;6&ndash;6), Torres, II, no. 1868, p. 10&ndash;11. Antonio de León Pinelo, <hi lang=es>Epitome de la Biblioteca Oriental i Occidental, Nautica i Geographica</hi>, Madrid, 1629, p. 31, also records Rada&apos;s Chinese grammar and dictionary. Santiago Vela, VI, pp. 444&ndash;60, gives a full history of Rada and his writings. He went to China a second time in May 1576, and in 1578 accompanied La Sande on his expedition to Borneo, dying on the way back to Manila in June of that year.</note> Rada was then not only the first to write in Visayan, but also the first to compile a Chinese dictionary, and more important still brought back with him to Manila from China many books of which Mendoza gives a list.<note n=62>González de Mendoza, <hi>op. cit.</hi>, pp. 103&ndash;5.</note> These books, printed in the usual Chinese method from wood-blocks, could have provided models for the Spaniards in the Philippines who lacked European facilities for printing, and they may have given birth to the idea which resulted in the xylographic Doctrinas.
+
+<p>Within the first few years several more Augustinian fathers<note n=63>Diego Ordoñez Vivar came to the Philippines in 1570, filled various ministries there, and according to Agustin Maria de Castro was in Japan in 1597, where he witnessed the martyrdom of the Franciscans; he died in 1603, Pérez, p. 10. Juan de Medina, p. 74, says, &ldquo;Father Diego de Ordoñez learned this language [Tagalog] very quickly.&rdquo; Alonso Alvatado had been on the unsuccessful 1542 expedition of Villalobos, and returned to the Philippines in 1571. Pérez, p. 11, records that he became familiar with the Tagalog language, was the first prior of Tondo, ministered to the Chinese there, and was the first Spaniard to learn the Mandarin dialect. He was elected provincial in 1575, and died at Manila the following year. Jéronimo Marín came to the islands with Alvarado, acquired skill in the Visayan, Tagalog and Chinese languages, accompanied Rada on his first expedition to China, was in Tondo in 1578, and later returned to Spain to recruit new missionaries for the province, dying in Mexico in 1606, Pérez, pp. 11&ndash;12.</note> arrived whose linguistic accomplishments are briefly noted by the historians, but while these men were certainly pioneers in the speaking of Tagalog and Chinese, they are not recorded as having written in the language. According to Cano,<note n=64>Cano, p. 12. Santiago Vela, I, p. 85, expresses the opinion that Cano&apos;s statement was an overenthusiasm, and is not valid.</note> the first Tagalog grammar was written by Agustin de Alburquerque, and Retana<note n=65>Retana, col. 9.</note> considered him one of the possible authors of the present Doctrina. This friar reached the Philippines in 1571, accompanied Rada on his second expedition to China in 1576, was elected provincial in 1578, and died in 1580. However, there is no early record saying that Alburquerque wrote any linguistic work. The statement was not made until the 19th century, and in contradiction Juan de Medina, who wrote in 1630, said that Juan de Quiñones &ldquo;made a grammar and lexicon of the Tagal language, which was the first to make a start in the rules of its mode of speech.&rdquo;<note n=66>Juan de Medina, p. 156.</note> Furthermore, in the official acts<note n=67>Santiago Vela, I, p. 85, where he cites the first book of the <hi lang=es>Gobierno</hi> of the Augustinian province.</note> of the Augustinian province we find that on August 20, 1578 Alburquerque as provincial of the order commissioned Quiñones to write a grammar, dictionary and confessionary in the Tagalog language. The conclusions of Santiago de Vela<note n=68>Santiago Vela, I, pp. 84&ndash;6 treats of the whole question in detail.</note> are that it is doubtful that Alburquerque wrote any linguistic works, and if he did they were liable to have been rough preliminary studies<note n=69>A Doctrina in Tagalog, attributed to Alburquerque by Agustin Maria de Castro in his unpublished <hi lang=es>Osario</hi>, is said by Santiago Vela, I, p. 85, to have been arranged and perfected by Quiñones, and was probably that presented by him to the Synod of 1582, if indeed he did present such a work then. For an account of the MS. <hi lang=es>Osario</hi>, see Schilling, p. 205n.</note> upon which the texts of Quiñones were based. In view of the lack of positive contemporary evidence<note n=70>Pérez, p. 20n, quotes Vicente Barrantes, <hi lang=es>El teatro tagalo</hi>, Madrid, 1890, p. 170, as saying that &ldquo;according to the Augustinian writers&rdquo; Alburquerque compiled an <hi lang=es>Arte de la Lengua Tagala</hi> between 1570 and 1580, the manuscript of which disappeared when the English sacked Manila in 1762. It may be that Barrantes referred to Cano or possibly Castro, but it must be emphasized that no contemporary historian, as far as has been discovered up to this time, has made such a statement.</note> we believe that Alburquerque <pb n=22>may be eliminated except as the instigator of such works, and we return again to Juan de Quiñones.
+
+<p>In so far as Quiñones<note n=71>Quiñones came to the Philippines in 1577 and spent his time in missions in and about Manila. He was named prior of Manila in 1586, and provincial vicar in 1587 in which year he died, Pérez, p. 19, and Santiago Vela, VI, pp. 433&ndash;4.</note> was the author of a grammar and dictionary claimed to have been printed at Manila in 1581, we have shown what various writers have said, and though we must conclude that the work was probably not printed, it is certain that he wrote in the Tagalog language. Agustin Maria de Castro<note n=72>Again Castro, as cited by Santiago Vela, VI, p. 435, is the only authority for this, although San Agustin, p. 391, lists Quiñones&apos; name among those present at the Synod.</note> said, although no earlier writers support it, that Quiñones actually presented a grammar, dictionary and Doctrina in Tagalog at the Synod of 1582 for its approval. Our total information about this Augustinian linguist boils down to these essentials: that he did write a grammar and dictionary of Tagalog about 1578&ndash;81, which may have been the earliest written in the Philippines; that he may have presented these and a Doctrina at the Synod of 1582 which approved Juan de Plasencia&apos;s works; that there is no concrete evidence that any of these works were printed; and that Quiñones&apos; works which were extant in manuscript in 1593 might have been consulted in the preparation of the present Doctrina.
+
+<p>Another member of the Order of St. Augustine who might have been able to participate in the editing of the 1593 Doctrinas was Diego Muñoz. Muñoz came to the islands in 1578, and died in 1594. Of him San Agustin writes:
+
+
+    <q rend=block><p>&ldquo;Moreover in this year [1581] the ministry for the Sangleys was founded in the convent of Tondo, and P. Fr. Diego Muñoz was named as its special minister. He devoted particular zeal to the study of the Chinese language, and preached in it with much elegance. And all the Sangleys who were going to be baptized, and there were many, had recourse to this ministry, and the teaching was continued with much vigilance and care. And there never lacked a religious of our order to apply himself to such holy work, from the time we came to this land, as our original records of the province prove.&rdquo;<note n=73>San Agustin, p. 381. It should be noted that this statement is in direct contradiction to those we shall cite later in connection with the controversy between the Augustinians and Dominicans over the Chinese ministry. The convent at Tondo had been founded in 1571, so San Agustin here must refer specifically to the Chinese mission.</note></q>
+
+
+<p>To him is also attributed<note n=74>Pérez, p. 22.</note> a volume of manuscript panegyric sermons in Tagalog, and because of this and his work at Tondo he may <pb n=23>have been consulted by the Dominicans. We also mention Lorenzo de León,<note n=75>Pérez, p. 29.</note> who arrived in 1582, spent twelve years in the provinces, wrote a book called the <hi lang=es>Estrella del mar</hi> in Tagalog, and died in 1623, and might also have helped.
+
+
+
+<div2>
+<head>The Franciscans</head>
+
+
+<p>Although the first Franciscans did not arrive in the Philippines until June 24, 1577, the writings of the linguists of that order are more fully recorded. Among the earliest was Juan de Plasencia who, the Franciscans claim, wrote the first Tagalog grammar. He was fortunate in meeting soon after his arrival Miguel de Talavera,<note n=76>Huerta, pp. 443 &amp; 500&ndash;01. In 1580, under the influence of Plasencia, Talavera took the habit of the Franciscan order and preached throughout the Philippines until his death in 1616. Huerta lists six works in Tagalog by him, all of them devotionary tracts, the last of which he notes was printed at Manila in 1617, and is listed by Medina, no. 20, pp. 14&ndash;5. His works are also recorded by Leon Pinelo, <hi>op. cit.</hi>, 1737&ndash;38, II, f. 919r.</note> who had come with his parents on the expedition of Legazpi. Miguel, then quite young, became in a manner of speaking the disciple of Plasencia, and while the father taught him Latin, he in turn taught Plasencia the elements of Tagalog which he had picked up. For two years Plasencia ministered in the provinces of Tayabas, Laguna, and Bulacan where he used and perfected his knowledge of the native language. On May 20, 1579, when the provincial Pedro de Alfaro left for China, he named Plasencia acting provincial during his absence. A reference to the earliest linguistic writings of the Franciscans occurs in an account by Santa Inés of the chapter meeting held in the Convent of Los Angeles in July 1580, which was presided over by Plasencia:
+
+
+    <q rend=block><p>&ldquo;The third and last thing that was determined in this chapter was that a grammar and dictionary of the Tagalog language should be made and a translation of the Doctrina Christiana completed. And since Fr. Juan de Plasencia, the president of this same chapter, excelled all in the language, he was given this responsibility, and he accepted it, and immediately set to work. And then after great study, much lack of sleep and care, together with fervent prayers and other spiritual duties, of not little importance in the good profit of such work, he reduced the language to a grammar, made a catechism, a very full dictionary, and various translations.&rdquo;<note n=77>Santa Inés (written originally in 1676), p. 211. Virtually the same information is given by San Antonio, I, pp. 532&ndash;3 &amp; 563.</note></q>
+
+
+<p>But the most important record of his writings is contained in the description of the Synod called by Bishop Salazar in 1582. In March, 1581, <pb n=24>Domingo de Salazar, the first Bishop of Manila and the Philippines, had arrived. The problems which faced him were manifold, particularly those of ecclesiastical jurisdiction, the treatment of the natives by government administrators, and the means by which the gospel could best be spread. A synod was called to resolve these points. One matter of the utmost importance was the approval of standard Tagalog texts, and Juan de la Concepcion gives the following account of what transpired in this connection:
+
+
+    <q rend=block><p>&ldquo;His excellency presided at the meetings. At them the most learned topics were discussed and the most learned persons were present&mdash;the Dominican father Salvatierra, the most outstanding scholars among the Augustinians and Franciscans, the Jesuit fathers Sedeño and Sanchez, and the Licentiate Don Diego Vasquez de Mercado as dean of the new cathedral. At this convention or diocesan synod it was discussed whether the Indians were to be ministered to in their native language, or if they would be obliged to learn Spanish, and it was decided to instruct them in their native tongue. The divine office, the Doctrina Christiana, which Father Fr. Juan de Plasencia had translated into the Tagalog language, was approved. His work, the <hi lang=es>Arte y Vocabuldrio Tagalo</hi>, was judged most useful because of the ease by which it permitted an understanding and thorough knowledge of so foreign a language.&rdquo;<note n=78>Juan de la Concepcion, <hi lang=es>Historia general de Philipinas</hi>, Manila, 1788&ndash;92, II, pp. 45&ndash;6. Schilling, p. 203n, maintains that the early writers were mistaken in believing that the Synod was held in 1581. On October 16, 1581 the Bishop called a meeting of ten priests at the Convent of Tondo to discuss the execution of the decree about slaves, Torres, II, pp. cxliv&ndash;v. No laymen were present and no other topic was discussed. The decisions of this meeting were sent in a letter from Salazar to the King, dated from Tondo, October 17, 1581, translated in B. &amp; R., XXXIV, pp. 325&ndash;31, from the original MS. in the A. of I. (68&ndash;1&ndash;42), Torres, II, no. 2686, p. 95. The following year a real Synod was held, this time including lay government officials as well as priests, at which was discussed a variety of subjects. Robert Streit, <hi lang=la>Bibliotheca Missionum</hi>, Aachen, 1928, IV, pp. 327&ndash;31, cites a MS. account of it by the Jesuit father Sanchez who was present; and Valentín Marín, <hi lang=es>Ensayo de una Síntesis de los trabajos realizados por las Corporaciones Religiosas Españoles de Filipinas</hi>, Manila, 1901, I, pp. 192 et seqq., cites another MS., then in the Archives of the Archiepiscopal Palace of Manila, <hi lang=es>Memoria de una junta que se hizo a manera de concilio el año de 1582, para dar asiento a las cosas tocantes al aumento de la fe, y justificacíon de las conquistas hechas y que adelante se hicieron por los espanoles</hi>, from which he quotes extensively. With reference to the Synod see further Lorenzo Pérez, <hi lang=es>Origen de las Misiones Franciscanas en el extremo oriente</hi>, in Archivo Ibero-Americano, 1915, III, pp. 386&ndash;400.</note></q>
+
+
+<p>The already quoted account of Santa Inés continues with a similar description of the Synod, and says that when the problem of teaching the natives was brought up only Plasencia could resolve it.
+
+
+    <q rend=block><p>&ldquo;Since, having seen his catechism and the translation which he had made in Tagalog of the grammar and dictionary, those who were at the Synod and understood anything of the language could do nothing but admire the fitness of the terms, their efficacy and strength. And they said that, without the particular help of heaven, it seemed impossible that in so short a time and with so few years in the country he could have done such excellent work. And then, having approved them, they ordered that various copies be made, particularly of the translation of the Doctrina, so that with them and with no other would the ministers teach the Indians, and so it was approved, in order that there might be uniformity in all parts of the Tagalog country. This translation is that which has come down to this day, except that it is more polished.&rdquo;<note n=79>Santa Inés, p. 212. Again similar accounts are to be found in San Antonio, I, pp. 563&ndash;6, in far more detail and phrased in even more laudatory terms, and the fullest early biography of Plasencia is given by San Antonio, II, pp. 512&ndash;79. Modern surveys appear in Marín, <hi>op. cit.</hi>, II, pp. 573&ndash;82, and Lorenzo Pérez, <hi>op. cit.</hi>, pp. 378 et seqq.</note></q>
+
+
+<p>It must have been shortly after the handbooks of Plasencia received the seal of ecclesiastical approval that Salazar wrote the King speaking of the <pb n=25>action taken, and got back in answer the cedula, quoted before, giving the Bishop and Audiencia the right of censorship over such works. The question of chronological precedence<note n=80>Chirino, <hi lang=it>Primera parte</hi>, quoted by Retana, col. 24, implied that Quiñones and Plasencia wrote at about the same time: &ldquo;The first who wrote in these languages were, in Visayan, P. Fr. Martin de Rada, and in Tagalog, Fr. Juan de Quiñones, both of the Order of St. Augustine, and at the same time Fr. Juan de Oliver and Fr. Juan de Plasencia of the Order of St. Francis, of whom the latter began first, but the former [wrote] many more things and very useful ones.&rdquo; However, San Antonio, I, p. 532, wrote perhaps with bias in favor of his own order, &ldquo;Although the Augustinian fathers had come earlier and did not lack priests fluent in the idiom, the language had not yet been reduced to a grammar, so that it could be learned by common grammatical rules, nor was there a general vocabulary of speech; except that each one had his own notes, to make himself understood, and everything was unsystematized.&rdquo;</note> between Quiñones and Plasencia is not important, for the specific approval of Plasencia&apos;s texts by the Synod, attended by Quiñones himself, shows that Plasencia&apos;s books were accepted, and in conformity with the ruling of the Synod would have been the only texts allowed to be used generally in the Philippines.
+
+<p>Another reference to writers in the native tongues in an anonymous manuscript of 1649 introduces the names of other linguists:
+
+
+    <q rend=block><p>&ldquo;The first missionaries left many writings in the Tagalog and Bicol languages, the best of which are those left by Fathers Fray Juan de Oliver, Fray Juan de Plasencia, Fray Miguel de Talavera, Fray Diego de la Asuncion, and Fray Gerónimo Monte. Mention is here made of the above fathers because they were the first masters of the Tagalog language, and since their writings are so common and so well received by all the orders. They have not been printed, because they are voluminous, and there are no arrangements in this kingdom for printing so much.&rdquo;<note n=81><hi lang=es>Entrada de la seraphica Religion de nuestro P. S. Francisco en las Islas Philipinas</hi>, MS. of 1649, first published in Retana, <hi lang=es>Archivo</hi>, I, no. III, translated in B. &amp; R., XXXV, p. 311.</note></q>
+
+
+<p>Miguel de Talavera we have spoken of before. That he helped Plasencia in the compilation of his earliest works in Tagalog is clear, and to him in part must be attributed the miracle of the production by Plasencia of the texts &ldquo;in so short a time and with so few years in the country.&rdquo; Martínez says specifically that Talavera &ldquo;was the first interpreter among our priests, and greatly helped Fr. Juan de Plasencia in the composition of the <hi lang=es>Arte y Vocabulario</hi>.&rdquo;<note n=82>Medina, p. 15, quoting from Martínez whom we are unable to trace.</note> Juan de Oliver was in somewhat the same relationship to Plasencia, but instead of helping with the initial attempts, he carried on from where Plasencia left off. Oliver came to the Philippines on the same expedition which brought Bishop Salazar in 1581. According to Huerta<note n=83>Huerta, pp. 492&ndash;3. Oliver died in 1599. San Antonio, II, p. 531, says that Plasencia was the first to write a catechism (called in Tagalog &ldquo;Tocsohan&rdquo;), and Oliver was the first to translate the explanation of the Doctrina. Oliver&apos;s works are noted by León Pinelo, <hi>op. cit.</hi>, 1737&ndash;38, II, col. 730, and Barrantes, <hi>op. cit.</hi>, p. 187.</note> he worked in various Tagalog villages, and mastered the Tagalog and Bicol languages, in which he wrote twenty-two works, which Huerta lists. Of these three are of particular interest to us. The first entry says that he &ldquo;corrected the Tagalog grammar written by Fr. Juan de Plasencia, and added the adverbs and particles;&rdquo;<note n=84>Sebastian de Totanes, <hi lang=es>Arte de la Lengua Tagala</hi>, Manila, 1850, p. v, (first edition printed in 1745) says of Oliver that &ldquo;up to the present day our province reveres him as the first master of this idiom.&rdquo;</note> the second that &ldquo;he <pb n=26>perfected and augmented the Spanish-Tagalog dictionary, written by the said Fr. Juan de Plasencia;&rdquo; and the sixteenth lists a <hi lang=es>Catecismo de doctrina Cristiana esplicado</hi>.
+
+<p>Several authors, attempting to establish the priority of Quiñones&apos; dictionary, question the existence of one by Plasencia at the Synod of 1582 in the face of his own statement in 1585 that he &ldquo;was then making a dictionary.&rdquo;<note n=85>See note 42.</note> To us there seems to be no inconsistency, if Plasencia in 1585 was referring to a revision, unquestionably made with his knowledge and help, by Juan de Oliver. In short, it is reasonable to assume that Plasencia, burdened with administrative duties from 1583 to 1586, during which time he was custodian of his order, secured the aid of Oliver in reediting and continuing his linguistic studies. Plasencia died in 1590.
+
+<p>The other two Franciscans listed by the anonymous historian of 1649 are elsewhere recorded as having written various works in Tagalog. To both Diego de la Asuncion<note n=86>Huerta, p. 517. Nothing is known of Diego de la Asuncion except that he wrote five works in Tagalog including an <hi lang=es>Arte</hi> and <hi lang=es>Diccionario</hi>. Huerta was unable to find any record of him in the mission lists, the capitularies or the death records, but that he was in the Philippines before 1649 we can be sure of from the notice of him in the manuscript of that date.</note> and Gerónimo Montes y Escamillo<note n=87>Huerta, p. 495. Montes y Escamilla came to the islands in 1583 and remained there until his death in 1610. Five works in Tagalog are attributed to him, an <hi lang=es>Arte</hi>, <hi lang=es>Diccionario</hi>, <hi lang=es>Confesionario</hi>, <hi lang=es>Devocional tagalog</hi>, and a <hi lang=es>Guia de Pecadores</hi>. The <hi lang=es>Devocional</hi> is listed by Medina, no. 16, p. 12.</note> were attributed grammars and dictionaries, and the latter also wrote a <hi lang=es>Devotional tagalog</hi>, said to have been printed at Manila in 1610. In speaking of these early linguistic texts, it is not necessary to believe that each was a completely original work, but rather that they were based upon a recognized model, which was at first the Talavera-Plasencia-Oliver text, and that the individual missionaries used their experience in the field to produce, as it were, new editions. That this was the case is borne out by the notes of Pablo Rojo to his bibliography of Plasencia where speaking of the grammar and dictionary he says that &ldquo;perfected by other missionaries, they have been the base for such grammars and dictionaries of Tagalog as have been written, but in the form in which they came from the hands of their author, they have not come down to us.&rdquo;<note n=88>Pablo Rojo, <hi>Fr. Juan de Plasencia</hi>, <hi lang=es>Escritor</hi>, Appendix 3 of Santa Inés, II, p. 590. An early reference by Fernández, <hi lang=es>Historia Eclesiastica</hi>, p. 300, speaking of the Franciscan missionary successes among the natives, says, &ldquo;They learned the Doctrina Christiana which the priests translated into Tagalog.&rdquo;</note> More important still is Rojo&apos;s statement<note n=89>Rojo, in Santa Inés, II, pp. 590&ndash;1, says that the Doctrina then being used among the Tagalogs was the same as that written by Plasencia except for modernization in accordance with the changes which had taken place in the language since his time.</note> that he found a portion of Plasencia&apos;s Doctrina which had been believed lost, and from which he quotes the Pater Noster. Since he does not say where the manuscript was or how it was known to be <pb n=27>Plasencia&apos;s text, we cannot put too much reliance on the statement, but the text as there printed, while similar to that of the present Doctrina, is not identical.
+
+
+<div2>
+<head>The Jesuits</head>
+
+
+<p>Before passing on to the Dominicans we shall mention briefly the linguists of the Society of Jesus. In the early days there were not many Jesuits in the Philippines. However, there were some linguists among them, chiefly of the Visayan tongue, in which they are said to have printed a Doctrina<note n=90>Medina, no. 15, p. 11.</note> as early as 1610. Limiting ourselves to a note of those who knew Chinese and Tagalog, we find that the first mentioned by Chirino as an outstanding master of one of these was Francisco Almerique, who arrived with Santiago de Vera in 1583. Shortly thereafter he &ldquo;began the study of the Chinese language in his zeal to aid in the conversion of the many Chinese who came to Manila and whom we in the Philippines call Sangleys.&rdquo;<note n=91>Chirino, p. 14.</note> And Colin says &ldquo;his principal occupation was with the Tagalog Indians, being the first of the Company to learn their language.&rdquo;<note n=92>Colin, II, p. 325.</note> Nothing further is said of his accomplishments in these languages, but his knowledge would have been available in 1593, for he was then still active in the islands.
+
+<p>Chirino himself landed at Manila in 1590 shortly after Dasmariñas, and went almost immediately to Taytay where he learned Tagalog and was joined in 1592 by Martin Henriquez. At the time Juan de Oliver was preaching in that district, and it is exceedingly probable that he helped the newcomers with the language, for Chirino speaks of him in terms of highest praise. Henriquez &ldquo;learned the language in three months and in six wrote a catechism in it, a confessionary, and a book of sermons for all the gospels of the year in the said idiom,&rdquo;<note n=93>Chirino, p. 27.</note> but he died on February 3, 1593 at Taytay. How thoroughly Chirino himself had grasped the fundamentals of Tagalog is evident from his three chapters<note n=94>Chirino, chaps. XV&ndash;XVII, pp. 34&ndash;41.</note> on the language and letters <pb n=28>of the natives in which he prints the Ave Maria in Tagalog and reproduces the Tagalog alphabet&mdash;its first appearance in a European publication. But Chirino, who remained in the provinces until 1595, would have mentioned his participation and that of Henriquez in the Doctrina of 1593, so we record them as possible but not probable consultants.
+
+
+<div2>
+<head>The Dominicans</head>
+
+
+<p>Had Aduarte written that the first books printed at Manila were two Doctrinas issued by the Dominicans at San Gabriel in 1593, and given some details of their production, we could conclude our study with a quotation from him, but nowhere does he mention them. In fact, his inference was that the first book was that printed for Blancas de San José, and yet we know that this Doctrina preceded anything that Blancas de San José could have written, since he did not come to the Philippines until 1595. We can assume, as Retana did, that by printing Aduarte meant printing from movable type, but this does not explain away the fact that Aduarte, who recorded in detail events of far less significance, did not speak of the Doctrinas at all. The best&mdash;and it is a most unsatisfactory best&mdash;that we can do is ascribe the omission to the frailty of man, and record that there is no notice of the Dominican Doctrina of 1593 in the most complete contemporary Dominican history of the Philippines.
+
+<p>The first members of the Order of St. Dominic<note n=95>On May 13, 1579, Philip&nbsp;II wrote to the Governor of the Philippines, &ldquo;Fray Domingo de Salazar, of the Dominican order, and bishop of the said islands, has reported to us that he is going to reside in these islands; and that he will take with him religious of his order to found monasteries, and to take charge of the conversion and instruction of the natives,&rdquo; B. &amp; R., IV, p. 141, translated from the original MS. in the Archivo-Historico Nacional, <hi lang=es>Cedulario indico</hi>, t. 31, f. 132V, no. 135. Twelve of the twenty who set out from Europe with Salazar died before reaching Mexico, and the others were so sick that all but one remained there, so when Salazar landed at Manila in March 1581 he was accompanied by twenty Augustinians, eight Franciscans, and only one Dominican, Christoval de Salvatierra.</note> to land in the Philippines were Bishop Salazar and his assistant, Christoval de Salvatierra. But they were fully occupied with the administration of the bishopric and could not devote themselves to regular missionary work. It was not until July 25, 1587 that working Dominican missionaries came. Then fifteen<note n=96>For these and other general facts I have used Aduarte and Remesal where they are supported by the other historians, Juan de la Concepcion, San Antonio, San Agustin, Juan de Medina and Santa Inés. It should be noted that Remesal acknowledged as his source for much of the material on the Philippines the unpublished MS. history of the Franciscan, Francisco de Montilla. The fifteen Dominicans were Juan de Castro, Alonso Ximenez, Miguel de Benavides, Pedro Bolaños, Bernardo Navarro, Diego de Soria, Juan de Castro the younger, Marcos Soria de San Antonio, Juan de San Pedro Martyr (or Maldonado), Juan Ormaza de Santo Tomás, Pedro de Soto, Juan de la Cruz, Gregorio de Ochoa, Domingo de Nieva, and Pedro Rodriguez.</note> under the leadership of Juan de Castro arrived, and established the first Dominican province<note n=97>By a bull of October 20, 1582 Pope Gregory&nbsp;XIII confirmed the appointment already obtained from Pablo Constable de Ferrara, General of the Dominican Order, making Juan Chrisóstomo vicar-general of the Philippine Islands and China, and giving him authority to establish a province there, B. &amp; R., V, pp. 199&mdash;200, translated from Hernaez, <hi lang=es>Coleccion de bulas</hi>, Brussels, 1879, I, p. 527, where it is printed from the original MS. in the Vatican, Bular. Dom., t. 15, p. 412.</note> of the Philippines and China, thus consummating the hope expressed as early as 1579.<note n=98>In 1580 the Dominicans of Mexico had begun plans for the establishment of a province in the Orient, and sent Juan Chrisóstomo to Europe to obtain the necessary permission from lay and ecclesiastical authorities. The Jesuit Alonso Sanchez, who had been sent to Spain to explain the situation in the Philippines, was at court, and told the King and Council of the Indies&mdash;quite subverting his mission&mdash;that there was no need for more priests and particularly no need for a new order there. Chrisóstomo was discouraged, but the scheme was revivified by Juan de Castro who finally secured a letter from Philip&nbsp;II on September 20, 1585 endorsing the plan. Twenty-two volunteers sailed from Spain on July 17, 1586. In Mexico the Dominicans again found Sanchez propagandizing against the mission and also encountered the efforts of the Viceroy to persuade the friars to remain there. Notwithstanding, twenty friars subscribed to a set of ordinances at the Convent of Santo Domingo in Mexico on December 17, 1586. Of the twenty, fifteen went to the Philippines, three went directly to China, and Juan Chrisóstomo, who was ill and weak, and Juan Cobo, who had business there, stayed behind in Mexico.</note>
+
+<pb n=29><p>In consultation with the other orders it was decided that the Dominicans should be given the ministry of the territories of Pangasinan and Bataan, which had theretofore been spiritually exploited by few priests. Almost immediately, on September 15, 1587, the vicariate of Bataan was founded and settled. In speaking of it, Aduarte stressed the importance of a knowledge of the language of the natives, which there would have been Tagalog, to the success of the mission. Domingo de Nieva, one of the four members of the mission, learned it rapidly and well, and soon began to preach to the Indians in their own tongue. His aptitude for languages and its usefulness to the Dominicans must have been very great, for Aduarte in listing the priests who originally volunteered in Spain makes few comments about individuals, but of Nieva he remarks that he &ldquo;was afterwards of great importance because of the great ease and skill with which he learned languages, whether Indian or Chinese.&rdquo;<note n=99>Aduarte, I, p. 9.</note> Unfortunately Nieva was only a deacon, and so could not hear confession, a fact which was greatly deplored, because during that first year no other priest mastered the language sufficiently well to do it, but in September 1588 he reached the requisite age and was ordained. About that time the friars in Bataan&mdash;one had died and another was ailing&mdash;were joined by Juan de la Cruz, &ldquo;who, being young, succeeded very well with the language,&rdquo;<note n=100>Aduarte, I, p. 70.</note> and also succeeded in surviving the climate.
+
+<p>Early in 1588 Juan Cobo<note n=101>Juan Cobo had stayed behind in Mexico on business, and during his stay had been so moved by the scandals of the government there that he preached publicly against them, as a result of which he was banished by the Viceroy. He brought with him from Mexico a fellow-reformer and exile, Luis Gandullo, and four other recruits for the Philippine mission.</note> arrived from Mexico. Shortly thereafter, on June 12, 1588, the Dominican chapter held its first convocation. It elected Juan de Castro the first provincial, adopted the general ordinances<note n=102>These are printed in the <hi lang=es>Ordinationes</hi> of 1604, see note 127, and by Remesal, pp. 677&mdash;8, who says that &ldquo;these ordinances were printed in as fine characters and as correctly as if in Rome or Lyon, by Francisco de Vera, a Chinese Christian, in the town of Binondo in the year 1604 through the diligence of Fr. Miguel Martin.&rdquo;</note> already made in Mexico, gave the convent at Manila the title of priory, and designated as parts of the province four vicariates. Of primary importance was the appointment then of Juan Cobo to the mission for the Chinese.
+
+<p>From the very earliest days of the Spanish occupation of Manila, the governors had had trouble with the Chinese and Sangleys.<note n=103>Sangley, a term used by the natives to designate Chinese, was derived from the Cantonese <hi>hiang</hi> (or <hi>xiang</hi>) and <hi>ley</hi> meaning a &ldquo;travelling merchant.&rdquo; It was adopted by the Spaniards and in most instances used interchangeably with Chinese. If any distinction existed it was that a Sangley was a permanent resident of the Philippines&mdash;quite contrary to the derivation of the word&mdash;or a Chinese of partially native blood. See San Agustin, p. 253.</note> These people <pb n=30>had long conducted a profitable trade between China and the Philippines, and many had settled permanently near Manila, while others stayed there regularly between trading voyages. The Chinese merchants were in full control of the shops of the city, and so monopolized retail trade that the early governors legislated<note n=104>Particularly the Memorial to the Council of the Indies sent with Sanchez, April 20, 1586, translated in B. &amp; R., VI, pp. 167&ndash;8, from the original MS. in the A. of I. (1&ndash;1&ndash;2/24), Torres, II, no. 3289, p. 159.</note> against them to give the Spaniards a chance to establish themselves in business. In 1588 there were as many as seven thousand of them in and around Manila.
+
+<p>No one had objected to the Pangasinan and Bataan assignments, but when it was suggested that the Dominicans also assume the responsibility for the ministry over the Chinese and Sangleys in the suburbs of Manila, the Augustinians vehemently resented what they considered an invasion of their prior rights. Aduarte omits any account of a disagreement, merely saying that since the Chinese had had no one to minister to them the Dominicans assumed that responsibility, but in a letter<note n=105>B. &amp; R., VII, pp. 130&ndash;1, translated from the original MS. in the A. of I. (67&ndash;6&ndash;18), Torres, III, no. 3556, pp. 15&ndash;6. See the statement of San Agustin quoted on p. 22, which gives the irreconciled Augustinian view. Most of the contemporary witnesses, however, seem to agree with the Dominicans.</note> from the Licentiate Gaspar de Ayala to Philip II, dated from Manila, July 15, 1589, full details of the squabble are given. From this source we learn that the Augustinians had a convent in the village of Tondo in the Chinese district. There they had ministered to the natives in their own language, but had rather neglected their Chinese-speaking parishioners. Consequently after the arrival of the Dominicans the Audiencia passed an ordinance requiring that the Bishop appoint ministers of one order to administer to the Chinese in their own language within thirty days. To meet the deadline the Augustinians began to study Chinese at breakneck speed, but when the Bishop came to Tondo to hear one of the friars, who was supposed to know the language, preach in it, there was some trouble as a result of which the Augustinian would not, or indeed could not, preach. Naturally, when it was decided to award the territory to the Dominicans, the Augustinians accused the Bishop of favoritism towards his own order.
+
+<p>The whole situation is best described in the report on the Chinese made by Salazar to the King on June 24, 1590:
+
+
+    <pb n=31><q rend=block><p>&ldquo;When I arrived in this land, I found that in a village called Tondo&mdash;which is not far from this city, there being a river between&mdash;lived many Sangleys, of whom some were Christians, but the larger part infidels. In this city were also some shops kept by Sangleys, who lived here in order to sell the goods which they kept here year by year. These Sangleys were scattered among the Spaniards, with no specific place assigned to them, until Don Gonzalo Ronquillo allotted them a place to live in, and to be used as a silk-market (which is here called <hi>Parián</hi>), of four large buildings. Here, many shops were opened, commerce increased, and more Sangleys came to this city.... When I came, all the Sangleys were almost forgotten, and relegated to a corner. No thought was taken for their conversion, because no one knew their language or undertook to learn it on account of its great difficulty; and because the religious who lived here were too busy with the natives of these islands. Although the Augustinian religious had charge of the Sangleys of Tondo, they did not minister to or instruct them in their own language, but in that of the natives or this land; thus the Sangley Christians living here, were Christians only in name, knowing no more of Christianity than if they had never accepted it.... Then I appealed to all religious orders to appoint some one of their religious to learn the language and take charge of the Sangleys. Although all of them showed a desire to do so, and some even began to learn it, yet no one succeeded; and the Sangleys found themselves with no one to instruct them and take up their conversion with the necessary earnestness, until, in the year eighty-seven, God brought to these islands the religious of St. Dominic.&rdquo;<note n=106>B. &amp; R., VII, pp. 220&ndash;3, translated from Retana, <hi lang=es>Archivo</hi>, III, pp. 47&ndash;80, and there printed from the original MS. in the A. of I. (68&ndash;1&ndash;32), Torres, III, no. 3698, p. 32.</note></q>
+
+
+<p>So we find, as the Dominicans undertook their mission, a large settlement of Chinese, including both a settled and a floating population, concentrated in the Parián, across the Pasig river from the main city of Manila.
+
+<p>The dominating figure of the Chinese mission from the time of his arrival in the Philippines was Juan Cobo. In a letter, written by him from the Parián of Manila, July 13, 1589, probably to ecclesiastical authorities in Mexico, he gives an account of the early days of the mission:
+
+
+    <q rend=block><p>&ldquo;The Order took a site next to this Parián, since there was not a single house between Santo Domingo and the Parián. And because of this opportunity the Order presently charged itself with the Chinese, both Christians and infidels. And upon P. Fr. Miguel de Benavides and P. Fr. Juan Maldonado was imposed the responsibility for the care of the Chinese and for learning their language. P. Fr. Miguel was less occupied with other matters than Fr. Juan Maldonado, so that he progressed in the language enough to begin to catechize in it. This was the first year the Order was in Manila.
+
+    <pb n=32><p>&ldquo;Presently in the second year when I came, the Order moved P. Fr. Miguel and myself into another separate house at the other edge of the Parián. So that there stood between Santo Domingo and San Gabriel, which is the name of this church of the Chinese, the whole of the Parián of the Sangleys. And there a poor little church was built under the protection of San Gabriel, to whom it fell by lot, and a poor house where we two lived. We entered into it at the beginning of September 1588. This was the first church for the Chinese built, and we believe that there is today not another parish church [for the Chinese] but that.... And P. Fr. Miguel catechized them and preached to them in their Chinese language, and taught the doctrine in it. I myself did not yet know the language, but the Lord has been served, so that in a short time I progressed in it.&rdquo;<note n=107>Remesal, pp. 681&ndash;2.</note></q>
+
+
+<p>The account of Aduarte is not so accurate in some details, but it supplies others not mentioned by Cobo. The first mission which Benavides and Maldonado (or de San Pedro Martyr as he was later known) built was near the village of Tondo, in a new settlement specially founded for Christian Chinese, called Baybay, and it was named for Our Lady of the Purification. The second mission which was established by Benavides and Cobo was at first a palm-leaf hut. The name of San Gabriel was decided upon by making lots with the names of various saints on them and then drawing. San Gabriel came out three times in a row, and &ldquo;all were persuaded that the Lord was pleased to have the patronage belong to this holy archangel.&rdquo; Soon, because of the good works of the fathers who established a hospital there for the care of the sick and poor, the demands upon the hut became so great that a larger building was planned. At first it was to have been erected on the site of the hut, but the inhabitants protested that a stone building so near native houses might do them great damage in the event of an earthquake, so the friars went to the other side of the river, and there built a temporary building of wood which was later completed in stone. It was here then that the Doctrina was printed, in the Church of San Gabriel, near the Parián of Manila, at the edge of the Chinese settlement.
+
+<p>Under the care of Benavides and Cobo the mission flourished, and the two fathers became increasingly proficient in the Chinese language. When <pb n=33>the provincial Juan de Castro began making preparations for an inspection tour of his Chinese vicariate in 1590, he chose as his companion Miguel de Benavides. The account of the events leading up to this expedition is given in the already quoted letter of Salazar on the Chinese:
+
+
+    <q rend=block><p>&ldquo;Of the Dominican religious who came to these islands, four are engaged in ministering to the Sangleys. Two of these four officiate in the Church of San Gabriel, which, together with the house where the religious live, stands close to the Parián. Another church with its house is on the promontory of Baybay, near Tondo&mdash;which a river divides, separating it from Manila. Two of the four have learned the language of the Sangleys so well, and one of these two how to write also (which is the most difficult part of the language), that the Sangleys wonder at their knowledge.... After due consideration of the matter, the Dominican fathers and myself decided that it was necessary to go to China.... Thus we decided upon the departure, sending at present no more than two religious: Fray Miguel de Benavides, who was the first to learn the language of the Sangleys; and Father Juan de Castro, who came as vicar of the religious and who was made provincial here. We preferred these two, as one is well acquainted with the language, and the other is much loved and esteemed by the Sangleys on account of his venerable gray locks and blessed old age; and we know that in that land old people are much respected and revered.&rdquo;<note n=108>B. &amp; R., VII, pp. 223&ndash;5, as in note 106.</note></q>
+
+
+<p>They sailed on May 22, 1590, but Juan de Castro before he left appointed Cobo acting superior of the province with full authority during his absence, and in the latter&apos;s place as head of the Chinese mission sent Juan de San Pedro Martyr.
+
+<p>There is no doubt but that at this time Benavides and Cobo were the two outstanding Chinese linguists among the Spaniards in the Philippines. To Benavides has been attributed<note n=109>Martínez-Vigil, <hi>op. cit.</hi>, p. 246, lists as written by Benavides a <hi lang=la>Vocabularium sinense facillimum</hi>, and Vinaza, p. 17, cites his entry.</note> a Chinese dictionary, and Schilling<note n=110>Schilling, p. 210, says that in his letter Cobo himself recorded that &ldquo;Benavides wrote the first Chinese catechism in the Philippines.&rdquo; He does not however differentiate between writing in Chinese characters and writing transliterated Chinese, and moreover &ldquo;hizo doctrina&rdquo; may only mean that he taught the doctrine, not necessarily that he wrote one.</note> uses the already quoted letter of Cobo to prove that he also wrote a Doctrina in Chinese, but, granting that such works were written by him, there is no evidence that they were written in Chinese characters, and not in Chinese transliterated into roman letters. The available evidence points to the fact that Cobo was the only one who could then write in Chinese characters. Salazar in his above quoted letter had said that &ldquo;one of these two [have learned] how to write also,&rdquo; and in the same letter he continued, <pb n=34>&ldquo;Fray Juan Cobo, the Dominican religious&mdash;who, as I have said before, knows the language of the Sangleys and their writing, and who is most esteemed by them&mdash;is sending to Your Majesty a book, one of a number brought to him from China.&rdquo;<note n=111>B. &amp; R., VII, p. 238, as in note 106.</note> Further witness to Cobo&apos;s amazing knowledge of Chinese writing is given by Aduarte:
+
+
+    <q rend=block><p>&ldquo;He knew three thousand Chinese characters, each different from all the rest, for the Chinese have no definite number of letters nor alphabet.... He translated a number [of Chinese books]; for like those of Seneca, though they are the work of heathens, they contain many profound sayings like ours. He taught astrology to some of them whom he found capable of learning; and to bring them by all means to their salvation also taught them some trades that are necessary among Spaniards, but which, not being used by the Chinese, they did not know&mdash;such as painting images, binding books, cutting and sewing clothes, and such things&mdash;doing all to win men to God.&rdquo;<note n=112>Aduarte, I, p. 140.</note></q>
+
+
+<p>Finally, as a more definite proof that Cobo could have been the author of the Chinese Doctrina of 1593, we have the record<note n=113>Aduarte, I, p. 140, says, before the previously quoted passage, that Cobo &ldquo;put the Doctrina Christiana in the Chinese language,&rdquo; and Viñaza, pp. 17&ndash;23, lists seven books by him, including the famous translation of the Chinese classic, <hi>Beng-Sim-Po-Cam</hi>, the original MS. of which, with an introductory epistle by Benavides, dated from Madrid, December 23, 1595, is in the <foreign lang=es>Biblioteca Nacional</foreign> at Madrid; an <hi lang=es>Arte de las letras chinas</hi>; <hi lang=es>Vocabulario chino</hi>; <hi lang=es>Catecismo o doctrina christiana en chino</hi>; (cited from León Pinelo, <hi>op. cit.</hi>, 1737&ndash;38, I, col. 142); <hi lang=es>Tratado de astronomia en chino</hi>; <hi lang=la>Linguae sinica ad certam revocata methodum</hi> (called by Martinez-Vigil, <hi>op. cit.</hi>, p. 263, &ldquo;the first works or work on the Chinese language&rdquo;); and <hi lang=la>Sententiae plures</hi>, excerpted from various Chinese books. See also Beristain, <hi>op. cit.</hi>, I, p. 316, and Quétif and Echard, <hi>op. cit.</hi>, II, pp. 306&ndash;7.</note> of a <hi lang=es>Catecismo de la Doctrina Cristiana en Lengua China</hi> written by him, as well as many other works in Chinese.
+
+<p>In May 1590, then, the most accomplished Sinologist yet to work in the Philippines was in charge of the Dominican province. &ldquo;His first act,&rdquo; wrote Aduarte, &ldquo;was to strengthen the ministry to the Chinese by appointing to it Father Domingo de Nieva, a priest of great virtue and very able&mdash;which was tremendously important there&mdash;and one who best mastered that language, as well as that of the Indians in which he had had experience; and he worked in both of them, and wrote much to the great advantage of those who came after him.&rdquo;<note n=114>Aduarte, I, p. 122.</note> It is surprising that no previous writer has emphasized the presence of Domingo de Nieva, whose proficiency in Tagalog we have already noted, at San Gabriel during the years when the printing of the Doctrinas must have been planned and executed. His works are cited by Fernández,<note n=115>Fernandez, <hi lang=es>Historia Eclesiastica</hi>, p. 304, &ldquo;In the Chinese language and letters, P. Fr. Domingo de Nieva, of San Pablo of Valladolid, printed a memorial of the Christian life; and P. Fray Tomas Mayor, of the province of Aragon, from the Convent and College of Orihuela, the Symbol of Faith.&rdquo; In his <hi lang=es>Historia de los Insignes Milagros</hi>, f. 217, Fernández states that both these works were printed at Bataan. Since Mayor did not arrive in the islands until 1602 his work is not pertinent to the present discussion. Mayor&apos;s book was seen but inadequately described by Jose Rodriguez, <hi lang=es>Biblioteca Valentina</hi>, 1747, p. 406, from a copy then in the Library of the Dominican Convent at Valencia, but now lost. Medina records it under the year 1607, no. 6, p. 6. See also León Pinelo, <hi>op. cit.</hi>, 1737&mdash;38, II, f. 919r, and Antonio, <hi>op. cit.</hi>, I, p. 330.</note> and after giving a summary of his career, Aduarte added:
+
+
+    <pb n=35><q rend=block><p>&ldquo;He wrote much in the language of the Indians and other things in the language of the Chinese for whom he had printed in their language and characters a memorial upon the Christian life, with other brief tracts of prayer and meditation, in preparation for the holy sacraments, of confession and the sacred communion. He was an enemy of sloth, and so worked much in Chinese, in which he wrote a practically new grammar of the Chinese language, a vocabulary, a manual of confession and many sermons, in order that those who had to learn this language might find it less difficult.&rdquo;<note n=116>Aduarte, I, p. 342.</note></q>
+
+
+<p>Medina<note n=117>Medina, nos. 399&ndash;402, pp. 261&ndash;2.</note> records these various works as Manila imprints of unknown date, and to this indefinite information about them we can add nothing positive. However, it is apparent that some time before 1606, when Nieva died on his way to Mexico, he had had books printed, and since they were in Chinese they must have been printed from wood-blocks, for at that early date it would have been impossible to have cast the number of characters necessary to print in Chinese with movable type.
+
+<p>With Nieva was Maldonado, or San Pedro Martyr. He had been one of the first associates of Benavides in the first Chinese mission at Baybay, but after the arrival of Cobo he had been sent by order of the first chapter to Pangasinan. When Cobo was appointed acting provincial San Pedro Martyr was again assigned to the Chinese ministry. He had learned Tagalog, and after his return to the Parián &ldquo;he learned more words of the Chinese language than any other member of the order, though he was not successful with the pronunciation.&rdquo;<note n=118>Aduarte, I, pp. 255&ndash;8. San Pedro Martyr moved back and forth a good deal. The first year in the Philippines he was with Benavides at Baybay; the second year he was in Pangasinan. In 1590 he was ordered to the Chinese mission in Cobo&apos;s place by Castro before he left for China. When Castro got back and Cobo could resume his old station, San Pedro Martyr went to the vicariate of Bataan &ldquo;the language of which he learned very well,&rdquo; and when Cobo left for Japan in 1592, San Pedro Martyr went back to San Gabriel.</note>
+
+<p>On May 31, 1592, the Governor received a letter from the Emperor of Japan demanding that an ambassador be sent to offer him the fealty of the Philippines. Juan Cobo, as the best speaker of Chinese, was chosen to represent the Spaniards, and he left Manila on July 29, 1592. After successfully convincing the Japanese Emperor of the amity of the Spaniards, he left to come back to Manila, but his ship was wrecked in November on the coast of Formosa, and there Cobo was killed by hostile natives. Meanwhile Benavides had gone back to Spain with Bishop Salazar in <pb n=36>1591, and did not return to the Philippines until after his appointment as Bishop of Nueva Segovia in 1595.
+
+<p>That left as the only two remaining experts in the Chinese language, Domingo de Nieva and Juan de San Pedro Martyr, both of whom were at San Gabriel in 1592. <hi>Moreover, both of them knew Chinese and Tagalog.</hi> A text in Tagalog was available, based on the Talavera-Plasencia-Oliver model, which had circulated freely, and this, we believe, was further edited&mdash;hence the &ldquo;corrected by the religious of the orders&rdquo;&mdash;by these two Dominicans. In their editorial work they may have been helped by Juan de la Cruz, who, we have noted, was sent to Bataan in 1588, there learned Tagalog, and &ldquo;succeeded so perfectly with it that Father Fr. Francisco San Joseph, who was afterwards the best linguist there, profited by the papers and labors of P. Fr. Juan de la Cruz.&rdquo;<note n=119>Aduarte, I, p. 323.</note> Juan de Oliver, the pioneer Franciscan Tagalist was still living and available for consultation, and the polylingual Jesuit, Francisco Almerique, also was in Manila at the time. A Chinese text had been written by Juan Cobo, and both Nieva and San Pedro Martyr were capable of preparing this for publication, again possibly aided by Almerique, and also Diego Muñoz, if as an Augustinian he had been willing to cooperate with the Dominicans. Nothing remained to be done but have the blocks cut and the impressions pulled.
+
+<div2>
+<head>The Printing of the Books</head>
+
+<p>The stage was set for the production of the Doctrinas. That there were Chinese xylographic models upon which the books could be based is evidenced by the account of Mendoza of the considerable number of Chinese books brought to Manila by Martin de Rada as early as 1575. A more likely model was a bilingual text in Spanish and Chinese which Cobo describes in his letter of July 13, 1589, where speaking of the Jesuits in China he says:
+
+
+    <pb n=37><q rend=block><p>&ldquo;Moreover the Father of the Company who was in China wrote and printed in Chinese letters a whole book of the unity of God, the creation of the world, and the commandments explained; and in this book has gotten as far as the incarnation of the Son of God. Concerning this I am not speaking of things heard, for I have it, and am thus certain of it, as of all the things that happened. How far I have progressed with the Chinese letters I shall say later. This book was printed in China in 1584. It circulates freely in China whence we have our copy, and because of the writing, contrary to what others have misleadingly said about the Chinese, they have done him no ill: from which it may be inferred that the lion is not so wild as they paint him.&rdquo;<note n=120>Remesal, p. 683.</note></q>
+
+
+<p>There is no direct evidence to support our belief that it was during the brief period after Castro returned, probably late in 1590, and relieved Cobo of his executive responsibilities, and June 1592 when he left for Japan, that Cobo began intensive plans for the production of bilingual texts. His recorded interest in such books, his influence with the Chinese, his energy and his own linguistic aptitude would naturally have stimulated him to undertake the task. Whether he actually began work on the blocks from which the books were printed, or merely suggested the feasibility of the idea, we do not know, but we feel sure that Juan Cobo was the father of the production of books in the Philippines.
+
+<p>There is no need here to go into the history of printing in China; the method used there and its antiquity have been fully described by others.<note n=121>See Hermann Hülle, <hi lang=de>Über den alten chinesischen Typendruck und seine Entwicklung in den Ländern des Fernen Ostens</hi>, N.P., 1923; Thomas Francis Carter, <hi>The Invention of Printing in China and its Spread Westward</hi>, New York, 1925; and Cyrus H. Peake, <hi>The origin and development of printing in China in the light of recent research</hi>, in the Gutenberg-Jahrbuch 1935, X, pp. 9&ndash;17.</note> That there were Chinese in Manila who understood this age-old process would seem obvious from the reports of skilled craftsmen whose presence was noted by all the writers of the period. We have already quoted a reference to Juan Cobo&apos;s teaching them European trades, and Salazar in his already cited letter speaks of them further:
+
+
+    <q rend=block><p>&ldquo;They are so skillful and clever, that, as soon as they see any object made by a Spanish workman, they reproduce it with exactness. What arouses my wonder most is, that when I arrived no Sangley knew how to paint anything; but now they have so perfected themselves in this art that they have produced marvelous works with both the brush and the chisel.... What has pleased all of us here has been the arrival of a bookbinder from Mexico. He brought books with him, set up a bindery, and hired a Sangley who had offered his services to him. The Sangley secretly, and <pb n=38>without his master noticing it, watched how the latter bound books, and lo, in less than [lacuna in MS.] he left the house, saying that he wished to serve him no longer, and set up a similar shop.&rdquo;<note n=122>B. &amp; R., VII, pp. 226, as in note 106.</note></q>
+
+
+<p>To turn over a manuscript copy of a book to a Chinaman who had already some familiarity with the production of books in China, or who with a given text could carve the blocks according to tradition, was then not a matter of great difficulty. There were Chinese books which showed what the result would be; there were Spanish books, definitely some from Mexico, which provided samples of European characters and format.
+
+<p>Who cut the blocks&mdash;that is exactly what Chinaman&mdash;we do not know, nor do we know who handled the presswork, but it is logical to assume that the whole process took place under the supervision of the fathers of San Gabriel, Juan Cobo if work had begun before 1592, and certainly Nieva and San Pedro Martyr. One further aide may have been the lay brother, Pedro Rodriguez, who had been sent to San Gabriel with Nieva, and who was a handyman or skilled mechanic, for Aduarte credits him with rebuilding and restoring the hospital.
+
+<p>In speaking of the book printed for Blancas de San José, Aduarte said that the printing had been done by &ldquo;a Chinaman, a good Christian,&rdquo;<note n=123>Aduarte, II, pp. 15&ndash;18.</note> but in this particular account he does not give the Chinaman&apos;s name. Yet, where he describes the founding of a second church of San Gabriel in Binondo, sometime after March 28, 1594<note n=124>Medina, p. xix, supposed that the Doctrina was printed in the Hospital of San Gabriel in Minondoc, but Aduarte, I, p. 107, says that when the village of Baybay became overcrowded, it became necessary to spread the Chinese Christian settlement to a new site directly across the river, where land was given them by Don Luis Pérez Dasmariñas, the son and successor of Gómez Pérez Dasmariñas, and there a second church of San Gabriel was built. According to an inscription on a painting of Don Luis, exhibited at the St. Louis Fair of 1904 and illustrated in B. &amp; R., XXX, p. 228, he bought the land from Don Antonio Velada on March 28, 1594, so that San Gabriel of Minondoc could not have been the place where the 1593 volumes were printed. Marin, <hi>op. cit.</hi>, II, p. 617, says that San Gabriel was moved several years after its foundation to Binondo at the request of the city, and was rebuilt twice. It is apparent that San Gabriel in the Parian was abandoned after the church in Binondo was built.</note> and before June 15, 1596 when it was admitted to the chapter, he tells in some detail of printing done by Juan de Vera.<note n=125>Juan de Vera was probably a comparatively common name at this time, because upon baptism the natives and Chinese assumed any Spanish name they pleased, and since Santiago de Vera was governor from 1584 to 1590, his last name would have been very popular. Aduarte, I, p. 86, mentions an Indian chief, Don Juan de Vera, who helped the Dominicans in Pangasinan, and Retana, col. 23, quotes from a document sent by the Audiencia of the Philippines to the King, August 11, 1620, the appointments as official interpreters of one Juan de Vera on June 15, 1598, and the same or another Juan de Vera on October 9, 1613.</note>
+
+
+    <q rend=block><p>&ldquo;There have been in this town [Binondo, then called Minondoc] many Chinese of very exemplary lives. Juan de Vera was not only a very devout man, and one much given to prayer, but a man who caused all his household to be the same. He always heard mass, and was very regular in his attendance at church. He adorned the church most handsomely with hangings and paintings, because he understood this art. He also, thinking only of the great results to be attained by means of holy and devout books, gave himself to the great labor necessary to establish printing in this country, where there was no journeyman who could show him the way, or give him an <pb n=39>account of the manner of printing in Europe, which is very different from the manner of printing followed in his own country of China. The Lord aided his pious intentions, and he gave to this undertaking not only continued and excessive labor, but all the forces of his mind, which were great. In spite of the difficulties, he attained that which he desired, and was the first printer in these islands; and this not from avarice&mdash;for he gained much more in his business as a merchant, and readily gave up his profit&mdash;but merely to do service to the Lord and this good to the souls of the natives.&rdquo;<note n=126>Aduarte, I, p. 108.</note></q>
+
+
+<p>It is interesting to note that this narrative, which is in substance similar to that about the books of Blancas de San José, nowhere mentions the name of the priest in connection with Vera. It is probable that Juan de Vera was, as Retana believed, the first typographer, and it may be that he also printed the Doctrinas of 1593. It is impossible to say with certainty, but it is not too fanciful to suppose that Juan de Vera tried xylographic printing under the supervision of Nieva and San Pedro Martyr, and after some experimenting achieved typography in the time of Blancas de San José.
+
+<p>Since we have here dealt with a volume printed entirely from wood-blocks it does not seem necessary to discuss in detail the subsequent typographical books. However, just as this goes to press, a copy of the <hi lang=la>Ordinationes Generales prouintiae Sanctissimi Rosarij Philippinarum</hi>,<note n=127>The title-page of this unique book is as follows: [row of type ornaments] <foreign lang=la>/ <hi rend=sc>Ordinationes Generales</hi> / prouinciæ Sanctissimi Rosarij / [type ornament] Philippinarum. [type ornament] / Factæ per admodum Reuerendum patrem fratrem / Io&amacr;nem de Castro, primum vicarium generalem e- / iusdem prouintiæ. De consilio, &amp; vnanimi con / sensu omnium fratt&umacr;, qui primit<hi rend=sup>9</hi> in pro / uintiam illam se contulerunt, euan / gelizandi gratia./ Sunt que semper vsque in hodiernum diem in om- / nibus eiusdem prouintiæ capitulis infalibiliter / acceptatæ, inuiolabiliter ab omnibus / fratribus obseruandæ. / Binondoc, per Ioannem de Vera chin&amacr; / Christianum. Cum licentia. 1604</foreign>. / [row of type ornaments]. The volume, an octavo bound in maroon levant morocco by Sangorski and Sutcliffe, consists of eight leaves, as follows: title-page as above, on the verso the permission signed at Manila, June 24, 1604, by Fr. Miguel Martin de San Jacinto, prior provincial of the Dominican Province of the Philippines; the text of the ordinances in Latin on eleven pages, with the device of the Dominican order on the verso of the last page; blank.</note> printed at Binondo by Juan de Vera in 1604, has been discovered, and also presented by Mr. Rosenwald to the Library of Congress. This is the volume described by Remesal<note n=128>See note 102.</note> as being printed &ldquo;in as fine characters and as correctly as if in Rome or Lyon.&rdquo; No copy of the book had been described since his day, although Medina<note n=129>Medina, <hi lang=es>Adiciones y Ampliacixones</hi>, p. [5].</note> and Retana<note n=130>Retana, cols. 77&ndash;8, where he gives as his source Hilario Ocio, <hi lang=es>Reseña biográfica de los religiosos de la provincia del Santisimo Rosario de Filipinas</hi>, Manila, 1891, I, p. 63. Ocio did not cite Remesal as his source, but the information, including the printer&apos;s name as Francisco de Vera, is the same.</note> both listed it from references which probably derived from Remesal. Its discovery&mdash;almost unbelievable coming so close on the heels of that of the Doctrina&mdash;helps to close the gap between the latter and the two Bataan imprints<note n=131>Both title-pages are reproduced in Francisco Vindel, <hi lang=es>Manual Gráphico-Descriptivo del Bibliófilo Hispano-Americano</hi>, Madrid, 1930&mdash;34, IX, p. 22, and VII, p. 181 respectively.</note> of 1610, the <hi lang=es>Arte y Reglas de la Lengva Tagala</hi> and the <hi lang=tl>Librong Pagaaralan nang manga Tagalog nang uicang Castilla</hi>.
+
+<pb n=40><p>The full story of the early typographical products of the Philippines must wait upon another occasion, for the questions posed by the scanty records and the handful of surviving books are extremely knotty. Where did the type come from? Medina suggested it was imported from Macao; Retana believed it to have been cut in the Philippines. Fernández said that the first works of Blancas de San José were printed at Bataan and the two 1610 books have that place of printing, yet in 1604 the <hi lang=es>Ordinationes</hi> issued from Binondo. Remesal wrote that this book was printed by Francisco de Vera, and the book itself bears the name of Juan. Indeed, the history of the early typographers and the output of their presses, as it has so far been written, presents many problems, but they are problems which we feel are outside the scope of this study.
+
+<p>To summarize what we have learned of the earliest printing in the Philippines: we have the possibility, but not a likely one, that an <hi lang=es>Arte</hi> by Juan de Quiñones was printed xylographically in 1581; we know that in the first half of the year 1593 two Doctrinas were printed xylographically&mdash;although we have no way of telling which came first&mdash;one in Tagalog from the Talavera-Plasencia-Oliver text, and one in Chinese written by Juan Cobo, both edited and printed under the supervision of Domingo de Nieva and Juan de San Pedro Martyr; we surmise that between 1593 and 1602 other works were also printed xylographically, such as the small tracts of Juan de Villanueva and some of the books of Blancas de San José, Nieva and others; and in 1602 was printed by Juan de Vera, in all likelihood from movable type, the book of Our Lady of the Rosary by Blancas de San José. The known facts are not many, and we can only hope that time and further research will discover new ones to make the history of the earliest Philippine imprints more complete and more satisfactory.
+
+
+<p>Philadelphia, January 20, 1947                <hi rend=sc>Edwin Wolf 2nd.</hi>
+
+
+<pb n=41>
+</body>
+<back id=backmatter>
+<div1 id=bibl type=Bibliography rend="toc-head(Bibliography)">
+
+
+<p>The most frequently cited authorities will be referred to as follows:
+
+<p>ADUARTE&mdash;Diego Aduarte, <hi lang=es>Historia de la Provincia del Sancto Rosario de la Orden de Predicadores en Philippinas, Iapon, y China</hi>, Manila, 1640.
+
+<p>B. &amp; R.&mdash;Emma Helen Blair and James Alexander Robertson, <hi>The Philippine Islands 1493&ndash;1898</hi>, Cleveland, 1903&ndash;09.
+
+<p>CANO&mdash;Gaspar Cano, <hi lang=es>Catalogo de los Religiosos de N.P.S. Agustin de la Provincia del Smo. Nombre de Jesus de Filipinas</hi>, Manila, 1864.
+
+<p>CHIRINO&mdash;Pedro Chirino, <hi lang=es>Relacion de las Islas Filipinas</hi>, Rome, 1604.
+
+<p>COLÍN&mdash;Francisco Colín, <hi lang=es>Labor Evangélica, Ministerios Apostólicos de los Obreros de la Compañia de Jesus, Fundacion, y Progressos de su Provincia en las Islas Filipinas</hi> (ed. Pablo Pastells), Barcelona, 1900&ndash;02.
+
+<p>HUERTA&mdash;Felix de Huerta, <hi lang=es>Estado Geográfico, Topográfico, Estadístico, Histórico-Religioso, de la Santa y Apostólica Provincia de S. Gregorio Magno ... de N.S.P.S. Francisco, en las Islas Filipinas</hi>, Binondo, 1865.
+
+<p>MEDINA&mdash;José Toribio Medina, <hi lang=es>La Imprenta en Manila desde sus Orígenes hasta 1810</hi>, Santiago de Chile, 1896.
+
+<p>MEDINA (Juan de)&mdash;Juan de Medina, <hi lang=es>Historia de los Sucesos de la Orden de N. Gran P. S. Agustin de estas Islas Filipinas</hi>, Manila, 1893.
+
+<p>P. &amp; G.&mdash;Angel Pérez and Cecilio Güemes, <hi lang=es>Adiciones y Continuacion de &ldquo;La Imprenta en Manila&rdquo; de D.J.T. Medina</hi>, Manila, 1904.
+
+<p>PÉREZ&mdash;Elviro Jorde Pérez, <hi lang=es>Catálogo Biobibliográfico de los Religiosos Agustinos de la Provincia del Santísimo Nombre de Jesús de las Islas Filipinas</hi>, Manila, 1901.
+
+<p>REMESAL&mdash;Antonio de Remesal, <hi lang=es>Historia de la provincia de S. Vincente de Chyapa y Guatemala de la orden de nro glorioso padre Sancto Domingo</hi>, Madrid, 1619.
+
+<p>RETANA&mdash;Wenceslao Emilio Retana y Gamboa, <hi lang=es>La Imprenta en Filipinas Adiciones y Observaciones á La Imprenta en Manila de D.J.T. Medina</hi>, Madrid, 1897.
+
+<p>SAN AGUSTIN&mdash;Gaspar de San Agustin, <hi lang=es>Conquistas de las Islas Philipinas</hi>, Madrid, 1698.
+
+<p>SAN ANTONIO&mdash;Juan Francisco de San Antonio, <hi lang=es>Chronicas de la Apostolica Provincia de S. Gregorio de Religiosos Descalzos de N.S.P. Francisco en las Islas Philipinas</hi>, Manila, 1738&ndash;44.
+
+<p>SANTA INÉS&mdash;Francisco de Santa Inés, <hi lang=es>Crónica de la Provincia de San Gregorio Magno de Religiosos descalzos de N.P. San Francisco en islas Filipinas, China, Japón, etc. escrita ... en 1676</hi>, Manila, 1892.
+
+<p>SANTIAGO VELA&mdash;Gregorio de Santiago Vela, <hi lang=es>Ensayo de una Biblioteca Ibero-Americana de la Orden de San Agustin</hi>, Madrid, 1913&ndash;31.
+
+<p>SCHILLING&mdash;Dorotheus Schilling, <hi lang=de>Vorgeschichte des Typendrucks auf den Philippen</hi>, Gutenberg-Jahrbuch, 1937, pp. 202&ndash;16.
+
+<p>TORRES&mdash;Pedro Torres y Lanza, <hi lang=es>Catálogo de los documentos relativos á las Islas Filipinas existentes en el Archivo de Indias de Seville</hi>, Barcelona, 1925&ndash;34.
+
+<p>VIÑAZA&mdash;Cipriano Muñoz y Manzano, Conde de la Viñaza, <hi lang=es>Escritos de los Portugueses y Castellanos referentes á las lenguas de China y el Japón</hi>, Lisbon, 1892.
+
+
+<pb>
+<div1 id=facsimile type=Facsimile rend="toc-head(Facsimile)">
+
+<p><hi rend=sc>This facsimile of the Doctrina Christiana printed at Manila in 1593 was printed by Edward Stern &amp; Company, Inc., Philadelphia, in an edition of twenty-five hundred copies, and published by the Library of Congress, February 1947. The type used on the title page and for headings is Forum, and that in the text Italian Old Style.</hi>
+
+
+<pb n=1>
+<p><figure id=dc001 rend="image(images/dc001.gif)"></figure>
+
+<p lang=es>Doctrina Christiana, en
+<lb>lengua española ytagala, cor
+<lb>regida por los Religiosos de las
+<lb>ordenes Impressa con licencia, en
+<lb>S. gabriel. de la orden de. S. Domigo
+<lb>En Manila. 1593
+
+<pb n=2>
+<p><figure id=dc002 rend="image(images/dc002.gif)"></figure>
+
+<p lang=es>Tassada endos rreales
+<lb>Juandecuellaz
+
+<pb n=3>
+<div1 id=fac1 lang=es>
+<p><figure id=dc003 rend="image(images/dc003.gif)"></figure>
+
+<p>A. a. b. c. d. e. f. g. h. ij. l. m. n. o.
+<lb>p. q. rr. s. s. t. u. v. x. y. z. z.
+<lb>vocales. a. e. i. o. u.
+<lb>Ba. be. bi bo bu. Ça çe çi. ço. çu.
+<lb>Da. de di do du. Fa fe fi fo fu.
+<lb>Gua gue gui guo gu. Ha he hi.
+<lb>ho hu. Ja je ji jo ju. La le li.
+<lb>lo lu. Ma me mi mo mu. Na.
+<lb>ne ni no nu. Pa pe pi po pu.
+<lb>Qua que qui quo qu. Ra re.
+<lb>ri ro ru. Sa se si so su. Ta te ti.
+<lb>to tu. Ua ue ui uo uu. Xa xe xi.
+<lb>xo xu. Ya ye yi yo yu. Za ze zi.
+<lb>zo zu.
+
+<pb n=4>
+<p><figure id=dc004 rend="image(images/dc004.gif)"></figure>
+
+<p>Ban ben bin bon bun. Çan çen
+<lb>çin çon çun. Dan den din don.
+<lb>dun. Fan fen fin fon fun. Guan
+<lb>guen guin guon gun. Han hen
+<lb>hin hon hun. Jan jen jin jon jun.
+<lb>Lan len lin lon lun. Man m&etilde;
+<lb>min mon mun. Nan nen nin non.
+<lb>nun. Pan pen pin pon pun. Quã
+<lb>quen quin quon qun. Ran ren
+<lb>rin ron run. San sen sin son s&utilde;.
+<lb>Tan ten tin ton tun. Uan uen.
+<lb>uin uon. uun. Xan xen xin xon
+<lb>xun. Yan yen yin yon yun. Zan
+<lb>zen zin zon zun.
+
+<pb n=5>
+<p><figure id=dc005 rend="image(images/dc005.gif)"></figure>
+
+<p>Bã b&etilde; b&itilde; bõ b&utilde;. Çã ç&etilde; ç&itilde; çõ ç&utilde;.
+<lb>Dã d&etilde; d&itilde; dõ d&utilde;. Fã f&etilde; f&itilde; fõ f&utilde;.
+<lb>Guan guen guin guon gun. Hã.
+<lb>h&etilde; h&itilde; hõ h&utilde;. Jã j&etilde; j&itilde; jõ j&utilde;. Lã l&etilde;.
+<lb>l&itilde; lõ l&utilde;. Mã m&etilde; m&itilde; mõ m&utilde;. Nã.
+<lb>n&etilde; n&itilde; nõ n&utilde;. Pã p&etilde; p&itilde; põ p&utilde;. Quã.
+<lb>qu&etilde; qu&itilde; quõ q&utilde;. Rã r&etilde; r&itilde; rõ r&utilde;. Sã.
+<lb>s&etilde; s&itilde; sõ s&utilde;. Xã x&etilde; x&itilde; xõ x&utilde;. Yã y&etilde;.
+<lb>y&itilde; yõ y&utilde;. Zã z&etilde; z&itilde; zõ z&utilde;.
+
+<p>&para;El abc. en l&etilde;gua tagala.
+
+<p><TL>a o e hiu piu kiu siu liu tiu niu biu miu giu diu yiu
+<lb>Niu wiu.</TL>
+
+<div1 id=fac2 lang=es>
+
+<p>&para;El paternoster.
+<lb>PADRE nuestro que estas en
+<pb n=6>
+<p><figure id=dc006 rend="image(images/dc006.gif)"></figure><lb>Los cielos, sanctificado sea el tu
+<lb>nombre. Venga anos el tu reyno.
+<lb>hagase tu voluntad, asi en la tierra
+<lb>como en el cielo. El pan nuestro
+<lb>de cada dia da noslo oy. Y per
+<lb>donanos nuestras duedas. asi como
+<lb>nosotros las perdonamos á
+<lb>nuestros deudores. Y no nos de
+<lb>xes caer en la tentacion. Das
+<lb>libranos de mal. Amen.
+
+<div1 id=fac3 lang=tl>
+
+<p>Ang ama namin.
+<lb>Ama namin nasa lan&gtilde;it ca
+<lb>y pasamba mo ang n&gtilde;alã
+<lb>mo, mouisa amin ang pagcahari
+<pb n=7>
+<p><figure id=dc007 rend="image(images/dc007.gif)"></figure><lb>mo. Y pasonor mo ang loob mo.
+<lb>dito sa lupa parã sa lan&gtilde;it, bigyã
+<lb>mo cami n&gtilde;aion nang amin caca
+<lb>nin. para nang sa araoarao. at pa
+<lb>caualin mo ang amin casalanã,
+<lb>yaing uinaualan bahala nam&itilde;
+<lb>sa loob ang casalanan nang
+<lb>nagcasasala sa amin. Houag
+<lb>mo caming ceuan nang di cami
+<lb>matalo nang tocso. Datapo
+<lb>uat ya dia mo cami sa dilan ma
+<lb>sama. Amen Jesus.
+
+<div1 id=fac4>
+
+<p><TL>a ma na mi. na sa la ngi ka. i pa sa ba
+<lb>mo. a nga la mo. mo wi sa a mi. a</TL>
+<pb n=8>
+<p><figure id=dc008 rend="image(images/dc008.gif)"></figure><lb><TL>pe ka ha ri mo. i pe so no mo. a lo o mo.
+<lb>di to sa lu pa. pa ra sa la ngi. bi ya mo ka mi.
+<lb>nga o. na a mi ka ka ni. pa ra na sa a ra a ra.
+<lb>a pa ka wa i mo. a a mi ka sa la na. ya ya
+<lb>wi na wa la ba ha la na mi sa lo o. a ka sa la na.
+<lb>na na ka sa sa la sa a mi. ho wa mo ka mi e wa. na
+<lb>di ka mi ma ta lo na to so. da ta po wa. i a
+<lb>ya mo ka mi. sa di la ma sa ma. a me se so.</TL>
+
+<div1 id=fac5 lang=es>
+
+<p>El aue Maria.
+<lb>Dios te salue Maria. lle
+<lb>na degracia. El senõr es
+<lb>contigo. bendita tu, estretodas
+<lb>las mugeres. Y bendito el fructo.
+<lb>deus vientre Jesus. Santa Ma
+<pb n=9>
+<p><figure id=dc009 rend="image(images/dc009.gif)"></figure><lb>ria uirgen y madre de Dios rue
+<lb>ga por nosotros peccadores. aora
+<lb>y en la ora denuestra muerte
+<lb>amen. Jesus.
+
+<div1 id=fac6 lang=tl>
+
+<p>Ang aba guinoo Ma
+<lb>Aba guinoo Maria ma
+<lb>toua cana, napopono ca
+<lb>nang graçia. ang pan&gtilde;inoon di
+<lb>os, ce, nasayyo. Bucor cang pinag
+<lb>pala sa babaying lahat. Pinag
+<lb>pala naman ang yyong anac si
+<lb>Jesus. Santa Maria yna nang,
+<lb>dios, ypanalan&gtilde;in mo camima
+<lb>çasalanan n&gtilde;aion at cun mama
+<pb n=10>
+<p><figure id=dc010 rend="image(images/dc010.gif)"></figure><lb>tai cami. Amen Jesus.
+
+<div1 id=fac7>
+
+<p><TL>a ba gi no o ma ri ya. ma to wa ka na. na po
+<lb>po no ka na ga ra si ya. a pa ngi no o di
+<lb>yo na sa i yo. bo ko ka pi na pa la. sa ba ba yi.
+<lb>la ha. pi na pa la na ma. a i yo a na se se so.
+<lb>sa ta ma ri ya. i na na di yo. i pa na la ngi mo
+<lb>ka mi. ma ka sa la na. nga o. a ku ma ma ta ka mi.
+<lb>a me se so.</TL>
+
+<div1 id=fac8 lang=es>
+
+<p>El credo en Romãce
+
+<p>Creo en dios padre, todo
+<lb>poderoso. Criador del çie
+<lb>lo y dela tierra. Y en Jesuchristo,
+<lb>su unico hijo senõr nro. Que fue
+<lb>conçebido del elpiritusancto. Y
+<pb n=11>
+<p><figure id=dc011 rend="image(images/dc011.gif)"></figure><lb>Y naçio de la uirgen sancta Ma
+<lb>ria. Padesçio so el poder depõcio
+<lb>Pilato. Fue crucificado, muer
+<lb>to, y sepultado, descendio alos
+<lb>infiernos, y alterçero dia resuscito,
+<lb>dentre, los muertos. Subio a los cie
+<lb>los, y esta asentado ala diestra de
+<lb>dios padre todo poderoso, dende
+<lb>uerna ajuzgar alos uiuos y alos
+<lb>muertos. Creo en el espiritusãto.
+<lb>y la sancta yglesia catholica, la
+<lb>comuniõ de los sanctos. La remi
+<lb>sion de los peccados. La refuree
+<lb>çion de la carne. La uida perdu
+<pb n=12>
+<p><figure id=dc012 rend="image(images/dc012.gif)"></figure><lb>rable, que nunca seacaba. Am&etilde;.
+
+<div1 id=fac9 lang=tl>
+
+<p>Ang sumãgpalataia
+
+<p>Sumasangpalataia aco sa di
+<lb>os ama, macagagaua sa lahat,
+<lb>mangagaua nang lan&gtilde;it at nang lu,
+<lb>pa. Sumasangpalataia aco naman
+<lb>cai Jesuchristo yysang anac nang
+<lb>dios pan&gtilde;inoon natin lahat. Nag
+<lb>catauan tauo siya salang nang es
+<lb>piritusancto. Ypinanganac ni Sã
+<lb>cta Maria uirgen totoo. Nasactã
+<lb>otos ni poncio Pilato. Ypinaco
+<lb>sa cruz. Namatai, ybinaon, nana
+<lb>og sa man&gtilde;a infierno, nang ma
+<pb n=13>
+<p><figure id=dc013 rend="image(images/dc013.gif)"></figure><lb>ycatlong arao nabuhai na naguli.
+<lb>naquiat sa lan&gtilde;it nalolocloc sa ca
+<lb>nan nang dios ama, macagagaua
+<lb>sa lahat. Sa caparito hohocom sa
+<lb>nabubuhai, at sa nan&gtilde;a matai na
+<lb>tauo. Sumasangpalataia aco na
+<lb>man sa dios Espiritusancto. At
+<lb>mei sancta yglesia catholica, at
+<lb>mei casamahan ang man&gtilde;a sãtos.
+<lb>At mei ycauauala nang casala
+<lb>nan. At mabubuhai na maguli
+<lb>ang na n&gtilde;a matai na tauo. At
+<lb>mei buhai na di mauala mag pa
+<lb>rating saan. Amen Jesus.
+
+<pb n=14>
+<p><figure id=dc014 rend="image(images/dc014.gif)"></figure>
+
+<div1 id=fac10>
+
+<p><TL>su ma sa pa la ta ya a ako. sa di yo a ma.
+<lb>ma ka ga ga wa sa la ha. ma ga ga wa na la ngi.
+<lb>a na lu pa. su ma sa pa la ta ya a ko na ma. ka se so.
+<lb>ki ri to. i i sa a na na di yo. pa ngi no o na ti
+<lb>la ha. na ka ta a ta wo si ya. la la na e pi ri to sa to.
+<lb>i pi na nga na. ni sa ta ma ri ya. bi se to to o. na sa
+<lb>ta o to ni po si yo. pe la to. i pi na ko sa ku ru.
+<lb>na ma ta. i bi na o. na na o sa ma nga i pe no. na ma
+<lb>i ka lo a ra. na bu ha na na o li. na ya sa la ngi.
+<lb>na lo lo lo sa ka na. na di yo a ma. ma ka ga ga wa sa
+<lb>la ha. sa ka pa ri to. ho ho ko. sa na bu bu ha. a sa
+<lb>na nga ma ta na ta wo. su ma sa pa la ta ya a ko na
+<lb>ma sa di yo e pi ri tu sa to. a ma sa ta i le si
+<lb>ya ka to li ka. a ma ka sa ma ha. a ma nga sa to.</TL>
+<pb n=15>
+<p><figure id=dc015 rend="image(images/dc015.gif)"></figure><lb><TL>a ma i ka wa wa la. na ka sa la na. a ma bu bu ha
+<lb>na ma u li. a na nga ma ta na ta wo. a ma bu ha
+<lb>na di na ma wa la. ma pa ra ti sa a. a me se so.</TL>
+
+<div1 id=fac11 lang=es>
+
+<p>La salue Regina
+
+<p>Salue te dios reyna y ma
+<lb>dre demisericordia, uida
+<lb>dulçura y esperança nra. Dios
+<lb>te salue atillamamos los deste
+<lb>ruados hijos de Gua. Atisuspi
+<lb>ramos gimiendo yllorando en
+<lb>aqueste ualle de lagrimas. Ga
+<lb>pues abogada nuestra, buelue
+<lb>anostros ellos tus misericor
+<lb>diosos ojos. Y despues dea.
+<pb n=16>
+<p><figure id=dc016 rend="image(images/dc016.gif)"></figure><lb>queste destierro muestra nos aje
+<lb>sus bendito fruto de tu ueintre. O
+<lb>clemente. O piadosa. O dulce uir
+<lb>gen Maria. Ruega por nos sãta
+<lb>madre de dios quescamos dig
+<lb>nos de las promisiones de Chris
+<lb>to Amen.
+
+
+<div1 id=fac12 lang=tl>
+
+<p>Ang aba po.
+
+<p>Aba po sancta. Mariang ha
+<lb>ri yna nang aua. Ycao ang
+<lb>yquinabubuhai namin, at ang pi
+<lb>nananaligan. Aba ycao n&gtilde;a ang
+<lb>tinatauag namin pinapapanao
+<lb>na tauo anac ni Gua. ycao din
+<pb n=17>
+<p><figure id=dc017 rend="image(images/dc017.gif)"></figure><lb>ang ypinagbubuntun hinin&gtilde;a na
+<lb>min nang amin pagtan&gtilde;is dini sa
+<lb>lupã baian cahapishapis. Ay
+<lb>aba pintacasi namin, ylin&gtilde;o mo
+<lb>sa amin ang mata mong maaua&itilde;.
+<lb>At saca cun matapos yering pag
+<lb>papanao sa amin. ypaquita mo
+<lb>sa amin ang yyong anac si Jesus.
+<lb>Ay Sancta Maria maauain, ma
+<lb>alam, uirgen naman totoo, yna
+<lb>nang Dios. Cami ypanalan&gtilde;in
+<lb>mo, nang mapatoloi sa amin
+<lb>ang pan&gtilde;a n&gtilde;aco ni Jesuchristo.
+<lb>Amen Jesus.
+
+<pb n=18>
+<p><figure id=dc018 rend="image(images/dc018.gif)"></figure>
+
+<div1 id=fac13>
+
+<p><TL>a ba po sa ta ma ri ya ha ri. i na na a wa
+<lb>i ka a i ki na bu bu ha na mi. a a pi
+<lb>na na na li ga. a ba i ka nga. a ti na ta wa na mi. pi
+<lb>na pa pa na na ta wo. a na ni e ba. i ka di. a i pi
+<lb>na bu bu tu hi ni nga na mi. na a mi pa ta ngi. di ni
+<lb>sa lu pa. ba ya ka ha pi ha pi. a a ba. pi ta ka
+<lb>si na mi. i li ngo mo sa a mi. a ma ta mo ma a wa
+<lb>i. sa ka ku ma ta po. ya ri pa pa pa na sa a mi.
+<lb>i pa ki ta mo sa a mi. a i yo a na si se so. sa ta
+<lb>ma ri ya. ma a wa i. ma a la. bi se na ma to to o.
+<lb>i na na di yo. ka mi i pa na la ngi mo. na ma pa
+<lb>to lo sa a mi. a pa nga nga ko. ni se so ki to.
+<lb>a me se so.</TL>
+
+<div1 id=fac14 lang=es>
+
+<p>Los Articulos dela fee,
+<pb n=19>
+<p><figure id=dc019 rend="image(images/dc019.gif)"></figure><lb>son catorze. Los siete pertenesç&etilde;
+<lb>ata diuinidad, ylos otros siete
+<lb>a la humanidad denrõ senõr Je
+<lb>suchristo Dios y hombre uerda
+<lb>dero. ylos siete que pertenesçen
+<lb>ala diuinidad son estos.
+
+<p>El primero, creer en un so
+<lb>lo dios todo poderoso.
+<lb>El segundo creer que es dios pa
+<lb>dre. El tercero, creer &qtilde;es dios hi
+<lb>jo. El quarto, creer que es Dios
+<lb>Espiritusancto. El quinto, creer
+<lb>que es criador. El sexto, creer
+<lb>&qtilde;es satuador. El septimo, creer
+<pb n=20>
+<p><figure id=dc020 rend="image(images/dc020.gif)"></figure><lb>que es glorificador.
+
+<p>Los que pertenesçenatasa
+<lb>ta humanidad. Son estos.
+
+<p>El Primero, creer que nues
+<lb>tro senõr Jesuchristo, en quãto
+<lb>hombre fue conçebido del sptri
+<lb>tu sancto. El segundo, que nasçro
+<lb>del uientre uirginal de la uirgen
+<lb>sancta Maria, siendo ella uirg&etilde;
+<lb>antes del parto, yenelparto, y des
+<lb>pues del parto. El terçero, que
+<lb>rescibio muerte y pasion porsal
+<lb>uar anosotros peccadores. El quar
+<lb>to: que desçendio alos infiernos,
+<pb n=21>
+<p><figure id=dc021 rend="image(images/dc021.gif)"></figure><lb>ysacolas animas de los sanctos
+<lb>padres que asta estauan esperan
+<lb>do su sancto aduenimiento. El
+<lb>quinto, que resuscito alterçero
+<lb>dia. El sexto, creer que subio
+<lb>alos cielos, yseassento ala dies
+<lb>tra de dios padre todo poderoso.
+<lb>El septimo, que uerna ajuzgar
+<lb>alos uinos y alos muertos. Con
+<lb>uiene asaber, alos buenos paradar
+<lb>la gloria, por&qtilde; guardaron susmã
+<lb>damientos: yalos malos pena
+<lb>percurable porque nolos guar
+<lb>daron. Amen:
+
+
+<pb n=22>
+<p><figure id=dc022 rend="image(images/dc022.gif)"></figure>
+
+<div1 id=fac15 lang=tl>
+
+<p>Ang pono nang sinasangpa
+<lb>lataianan nang man&gtilde;a chris
+<lb>tiano labin apat na bagai. Ang
+<lb>pitong naona ang sabi ang Dios
+<lb>ang pagcadios niya. Ang pitõg
+<lb>naholi ang sabi,a, ang atin pan&gtilde;i
+<lb>noon Jesuchristo ang pagcatauo
+<lb>niya. Ang pitong naona ang sa
+<lb>bi, ce ang Dios ang pagca dios ni
+<lb>ya ay yceri.
+
+<p>Ang naona sumangpalataia
+<lb>sa ysang Dios totoo. Ang ycalua,
+<lb>sumangpalataia, ycering dios si
+<lb>yang ama. Ang ycatlo, Sumãpalataia.
+<pb n=23>
+<p><figure id=dc023 rend="image(images/dc023.gif)"></figure><lb>ycering dios siyang anac. Ang
+<lb>ycapat sumangpalataia, ycering
+<lb>dios siyang spiritusancto. Ang
+<lb>ycalima, sumangpalataia, ycer&itilde;g
+<lb>dios siyang mangagaua nang la
+<lb>hat. Ang ycanim, sumangpala
+<lb>taia ycering dios siyang naca
+<lb>uauala nang casalanan. Ang
+<lb>ycapito sumangpalataia ycering
+<lb>dios siyang nacalulualhati.
+
+<p>Ang pitong naholi ang
+<lb>sabi ce ang ating pãgninoon
+<lb>Jesuchristo ang pagcatauo ni
+<lb>ya ay yari.
+
+<pb n=24>
+<p><figure id=dc024 rend="image(images/dc024.gif)"></figure><p>Ang naona sumangpala
+<lb>taia ang atin pa&gtilde;ninoon
+<lb>Jesuchristo, ypinaglehe ni San
+<lb>cta Maria lalang nang spiritu
+<lb>sancto. Ang ycalua sumang
+<lb>palataia, ang atin pagninoon
+<lb>Jesuchristo y pinan&gtilde;anac ni
+<lb>sancta maria uirgen totoo, nã
+<lb>dipa nan&gtilde;anac, nang macapa
+<lb>n&gtilde;anac na uirgen din totoo.
+<lb>Ang ycatlo sumangpalataia,
+<lb>ang atin pan&gtilde;inoon Jesuchris
+<lb>to nasactan, ypinaco sa cruz.
+<lb>namatai sacop nang atin casa
+<pb n=25>
+<p><figure id=dc025 rend="image(images/dc025.gif)"></figure><lb>lanan. Ang ycapat sumang
+<lb>palataia, ang atin pan&gtilde;inoon Je
+<lb>suchristo nanaog sa man&gtilde;a in
+<lb>fierno, at hinan&gtilde;o doon ang ca
+<lb>loloua nang man&gtilde;a sanctos nag
+<lb>hihintai nang pagdating niya.
+<lb>Ang ycalima sumangpalataia
+<lb>ang atin pan&gtilde;inoon Jesuchristo,
+<lb>nang magycatlong arao nabu
+<lb>hai nanaguli. Ang ycanim su
+<lb>mangpalataia ang atin pan&gtilde;ino
+<lb>on Jesuchristo nacyat sa lan&gtilde;it
+<lb>nalolocloc sa canan nang dios
+<lb>ama macagagaua sa lahat. Ang
+<pb n=26>
+<p><figure id=dc026 rend="image(images/dc026.gif)"></figure><lb>ycapito sumangpalataia ang a
+<lb>tin pan&gtilde;inoon Jesuchristo saca
+<lb>parito hohocom sa nabubuhai at
+<lb>sa nan&gtilde;amatai na tauo. Ang ba
+<lb>nal na tauo gagantihin niya nãg
+<lb>caloualhatian nang lan&gtilde;it, ang
+<lb>nacasonor silla nang caniyang
+<lb>otos. Ang di banal pacasasamin
+<lb>sa infierno ang di silla sumonor
+<lb>nang otos niya. Am&etilde;. Jesus.
+
+<div1 id=fac16>
+
+<p><TL>a po no na si na sa pa la ta ya na. na
+<lb>ma nga ki ni ti ya no. la bi a pa na
+<lb>ba ga. a pi to na o na. a sa bi i a di yo. a
+<lb>pa ka di yo ni ya. a pi to na ho li. a sa bi i.</TL>
+<pb n=27>
+<p><figure id=dc027 rend="image(images/dc027.gif)"></figure><lb><TL>a a ti pa ngi no o se so ki to. a pa ka ta wo ni ya.
+<lb>a pi ta na o na. a sa bi a di yo. a pa ka di yo
+<lb>ni ya. a pa di.</TL>
+
+<p><TL>a na o na. su ma pa la ta ya sa i sa di
+<lb>yo to to o. a i ka wa. su ma pa la ta ya. ya ri di
+<lb>yo. si ya a ma. a i ka lo. su ma pa la ta ya.
+<lb>ya ri di to. si ya a na. a i ka pa. su ma pa la
+<lb>ta ya. ya ri di yo. s ya e pi di to sa to a i
+<lb>ka li ma. su ma pa la ta ya. ya ri di to. si ya ma ga
+<lb>ga wa na la ha. a i ka ni. su ma pa la ta ya. ya ri
+<lb>di to. si ya na ka wa wa la na ka sa la na. a i ka pi
+<lb>to. su ma pa la ta ya. ya ri di yo. si ya na ka lu
+<lb>lu wa ha ti.</TL>
+
+<p><TL>a pi to na hu li. a sa bi i a a ti pa ngi</TL>
+<pb n=28>
+<p><figure id=dc028 rend="image(images/dc028.gif)"></figure><lb><TL>no o se so ki to. a pa ka ta wa ni ya. a ya ri.
+<lb>a na o na. su ma pa la ta ya. a a ti pa
+<lb>ngi no o se so ki to. i pi na le he. ni sa ta ma ri
+<lb>ya. la la na e pi ri to sa to. a i ka wa. su ma
+<lb>pa la ta ya. a a ti pa ngi no o se so ki to. i pi
+<lb>na nga na. ni sa to ma ri ya. bi se to to o. na di pa
+<lb>na nga na. na ma ka pa nga na na. bi se di to to o.
+<lb>a i ka lo. su ma pa la ta ya. a a ti pa ngi
+<lb>no o se so ki to. na sa ta. i pi na ko sa ku ru. sa
+<lb>ko na a ti ka sa la na. a i ka pa. su ma pa la ta ya.
+<lb>a a ti pa ngi no o se so ki to. na na o. sa ma ngo
+<lb>i pe no. a hi na ngo do o. a ka lo lo wa na ma
+<lb>nga sa to. na hi hi ta. na pa ra ti ni ya. a i ka
+<lb>li ma. su ma pa la ta ya. a a ti pa ngi no o. se so</TL>
+<pb n=29>
+<p><figure id=dc029 rend="image(images/dc029.gif)"></figure><lb><TL>ki to. na ma i ka lo a ra. na bu ha na na u li.
+<lb>a i ka ni. su ma sa pa la ta ya. a a ti pa ngi no
+<lb>o se so ki to. na ya sa la ngi. na lo lo lo sa ka
+<lb>na. na di yo a ma. ma ka ga ga wa sa la ha. a i ka pi to.
+<lb>su ma pa la ta ya. a a ti pa ngi no o se so ki to.
+<lb>sa ka pa ri to. ho ho ko. sa na bu bu ha. a sa na nga
+<lb>ma ta na ta wo. a ba na na ta wo. ga ga ti hi ni ya.
+<lb>na ka lu wa ha ti a na la ngi. a na ka so no si la
+<lb>na ka ni ya o to. a di ba na pa ka sa sa i. sa i
+<lb>pe no. a di si la so mo no. na o to ni ya. a me.
+<lb>se so.</TL>
+
+<div1 id=fac17 lang=es>
+
+<p>Los mandamientos de la
+<lb>lei de dios son diez. Los tres
+<lb>pertenesçen alhonor de Dios.
+<pb n=30>
+<p><figure id=dc030 rend="image(images/dc030.gif)"></figure><lb>ylos otros siete al prouecho del
+<lb>proximo.
+
+<p>El primero, amarasa dios
+<lb>sobre todas las cosas. El
+<lb>segundo, no jurarasu sancto nom
+<lb>bre en uano. El terçero, sanctisi
+<lb>caras las siestas. El quarto, hon
+<lb>rraras atu padre y madre. El
+<lb>quinto, no mataras. El sexto
+<lb>nofornicaras. El septimo, no hur
+<lb>taras. El octauo, noscuantarafal*
+<lb>so testimonio. El noueno, no
+<lb>dessearas la muger de suproxi
+<lb>mo. El dezeno, nocobdiçiaras,
+<pb n=31>
+<p><figure id=dc031 rend="image(images/dc031.gif)"></figure><lb>los bienes agenos. Estos diez
+<lb>mandamientos se ençierran &etilde;
+<lb>dos, amarasa dios sobre todas
+<lb>las cosas. y atu proximo como
+<lb>ati mesmo.
+
+<div1 id=fac18 lang=tl>
+
+<p>Ang otos nang Dios,ce,
+<lb>sangpouo.
+
+<p>Ang naona, ybigin mo ang
+<lb>dios lalo sa lahat. Ang y
+<lb>calua, houag mo sacsihin ang
+<lb>dios cundi totoo. Ang ycatlo
+<lb>man&gtilde;ilin ca cun domingo at c&utilde;
+<lb>siesta. Ang ycapat, ygalang mo
+<lb>ang yyong ama, at ang yyong
+<pb n=32>
+<p><figure id=dc032 rend="image(images/dc032.gif)"></figure><lb>yna. Ang ycalima houag mõg
+<lb>patayin ãg capoua mo tauo. ãg yca
+<lb>nim, houag cãg maquiapir sa di mo
+<lb>asaua. Ang ycapito houag cang mag
+<lb>nacao, ãg ycaualo houag mõg paga
+<lb>uãgauã nanguica ang capoua mo
+<lb>tauo houag ca naman magsonõ
+<lb>galing. Ang ycasiam houag cang
+<lb>mag nasa sa di mo asaua. Ang y
+<lb>capolo, houag mong pagnasa
+<lb>ang di mo ari. Ytong sang
+<lb>pouong Otos nang Dios da
+<lb>laua ang inouian. Ang ysa
+<lb>ybigin mo Ang Dios lalo
+<pb n=33>
+<p><figure id=dc033 rend="image(images/dc033.gif)"></figure><lb>lalo sa lahat. Ang ycalua ybig
+<lb>in mo naman ang capoua mo tauo
+<lb>parang ang catauan mo. Amen.
+<lb>Jesus.
+
+<div1 id=fac19>
+
+<p><TL>a o to na di yo. i sa po wo
+<lb>a na o na. i bi i mo a di yo. la lo sa la
+<lb>ha. a i ka wa. ho wa mo sa se hi a di yo
+<lb>ku di to to o. a i ka lo. ma ngi li ka. ku do mi go.
+<lb>a ku pi ta. a i ka pa. i ga la mo. a i yo a ma.
+<lb>a a i yo i na. a i ka li ma. ho wa mo pa ta
+<lb>yi a ka po wa mo to wo. a i ka ni. ho wa ka ma ki
+<lb>a pi sa di mo a sa wa. a i ka pi to. ho wa ka
+<lb>ma na ka. a i ka wa lo. ho wa mo pa ga a ga a na
+<lb>wi ka. a ka po wa mo ta wo. ho wa ka na ma ma so.</TL>
+<pb n=34>
+<p><figure id=dc034 rend="image(images/dc034.gif)"></figure><lb><TL>no nga li. a i ka si ya. ho wa ka ma na sa. sa
+<lb>di mo a sa wa. a i ka po lo. ho wa mo pa na sa hi
+<lb>a di mo a ri. i to sa po wo. o to na di yo. da wa
+<lb>a i no wi a. a i sa. i bi i mo a di yo. la
+<lb>lo sa la ha. a i ka wa. i bi i mo na ma. a ka
+<lb>po wa mo ta wo. pa ra na ka ta a mo. a me se so.</TL>
+
+<div1 id=fac20 lang=es>
+
+<p>Los mandamientos de las sã
+<lb>cta madre yglesia, son cinco.
+
+<p>El primero. ourmissa ente
+<lb>ra los domingos y siestas
+<lb>de guardar. El segundo, con
+<lb>fesar alomenos una vez en el
+<lb>anõ. El tercero, comulgar de
+<lb>necessidad por pascua florida.
+<pb n=35>
+<p><figure id=dc035 rend="image(images/dc035.gif)"></figure><lb>El quarto, ayunar quando lo
+<lb>manda la sancta madre ygtiã.
+<lb>El quinto, pagar diezmos y
+<lb>primiçias.
+
+<p>Ang otos nang sancta y
+<lb>gtiã yna natin ceylima.
+
+<p>Ang naona, maqui~nig nãg
+<lb>missa houag meilisan
+<lb>cun domingo at sa siesta, pina
+<lb>n&gtilde;ingilinan. Ang ycalua, mag
+<lb>confesar miminsan man taon
+<lb>taon, at cun mey hirap na yca
+<lb>mamatai. Ang ycatlo, mag
+<lb>comulgar cun pascua na yqui
+<pb n=36>
+<p><figure id=dc036 rend="image(images/dc036.gif)"></figure><lb>nabuhai na naguli nang atin pa
+<lb>n&gtilde;inoon Jesuchristo. Ang ycapat,
+<lb>magayunar cun magotos ang sa
+<lb>cta yglesia yna natin. Ang y
+<lb>calima papamagohin ang Dios
+<lb>nang dilan pananim, at ang scey
+<lb>capoua yhayin sa dios. Amen.
+
+<div1 id=fac21>
+
+<p><TL>a o to na sa ta i le si ya. i na na ti a
+<lb>a li ma.
+<lb>a na o na. ma ki yi na mi sa. ho wa ma li sa.
+<lb>ku do mi go. a sa pi ta. pi na ngi
+<lb>ngi li na. a i ka wa. ma ko pi sa. mi mi sa ma.
+<lb>ta o ta o. a ku ma hi ra na i ka ma ma ta. a i
+<lb>ka lo. ma ko mu ga. ku pa ku wa. na i ki na bu ha</TL>
+<pb n=37>
+<p><figure id=dc037 rend="image(images/dc037.gif)"></figure><lb><TL>na na u li. na a ti pa ngi no o. se so ki to.
+<lb>a i ka pa. ma a yu na. ku ma o to. a sa ta
+<lb>i le si ya. i na na ti. a i ka li ma. pa pa
+<lb>ma go hi a di yo. a di la pa na ni. a a
+<lb>sa i ka pu wo. i ha yi mo sa di yo. a me.</TL>
+
+<div1 id=fac22 lang=es>
+
+<p>Los sacramentos de la san
+<lb>cta madre ygtiã son siete.
+
+<p>El primero baptismo. El seg&utilde;
+<lb>do confirmacion. El tercero Pe
+<lb>nitencia. El quarto, comuniõ.
+<lb>El quinto extrema uncion. El
+<lb>septimo, orden de matrimonio.
+
+<div1 id=fac23 lang=tl>
+
+<p>Pito ang mahal natanda
+<pb n=38>
+<p><figure id=dc038 rend="image(images/dc038.gif)"></figure><lb>ycauauala nang casalanan ang
+<lb>n&gtilde;alan sacramentos.
+
+<p>Ang naona ang baptismo. A&gtilde;
+<lb>ycalua ang confirmar. Ang y
+<lb>catlo ang confesar. Ang yca
+<lb>pat ang comulgar. Ang ycali
+<lb>ma ang extrema uncion. Ang
+<lb>ycanim ang orden nang saçerdo
+<lb>te. Ang ycapito ang pagcasal.
+<lb>Itong daluan holi pinatotoobã
+<lb>nang dios ang tauo piliin ang
+<lb>balan ybig. Amen.
+
+<div1 id=fac24>
+
+<p><TL>pi to a ma ha na ta da. a ka wa wa la na ka sa
+<lb>la na. a nga la sa ka ra me to.</TL>
+<pb n=39>
+<p><figure id=dc039 rend="image(images/dc039.gif)"></figure><lb><TL>a na o na. a ba ti mo. a i ka wa. a ku pi ma.
+<lb>a i ka lo. a ko pi sa. a i ka pa. a ko mu ga.
+<lb>a i ka li ma. a e te re ma. u si yo. a i
+<lb>ka ni. a o de na sa se do ti. a i ka pi to.
+<lb>a pa ka sa. i to da wa ho li. pi na lo lo o ba.
+<lb>na di yo a ta wo. pi li i. a ba la i bi.</TL>
+
+<div1 id=fac25 lang=es>
+
+<p>Los peccados mortales
+<lb>son siete.
+
+<p>El primero soberuia. El se
+<lb>gundo Euaricia. El tercero,
+<lb>Luxuria. El quarto yra. El
+<lb>quinto, Gula*. El sexto Embi
+<lb>dia. El septimo Accidia.
+
+<div1 id=fac26 lang=tl><p>Ang ponong casalanan, y
+<pb n=40>
+<p><figure id=dc040 rend="image(images/dc040.gif)"></figure><lb>capapacasama nang caloloua
+<lb>cey pito.
+
+<p>Ang capalaloan. Ang caramo
+<lb>tan. Ang calibogan. Ang ca
+<lb>galitan. Ang caiamoan sapag
+<lb>caen at sapag inum. Ang capa
+<lb>naghilian. Ang catamarã.
+
+<div1 id=fac27>
+
+<p><TL>a po no ka sa la na. i ka pa pa ka sa
+<lb>ma na ka lo lo wa. a pi to.
+<lb>a ka pa la lo a. a ka ra mo ta. a ka li
+<lb>bo ga. a ka ga li ta. a ka ya mo a. sa pa ka
+<lb>e. a sa pa i nu. a ka pa na hi li a.
+<lb>a ka ta ma ra.</TL>
+
+<div1 id=fac28 lang=es>
+
+<p>Las obras demisericordia,
+<pb n=41>
+<p><figure id=dc041 rend="image(images/dc041.gif)"></figure><lb>que qualquier chistiano deue
+<lb>cumplirson catorze. Las siete
+<lb>spirituales, y las otras siete cor
+<lb>porales. las siete corporales son
+<lb>estas.
+
+<p>Ujsitar los enfermos. Dar de
+<lb>comer al que hahãbre. Dar de
+<lb>beuer al que hased. Recte
+<lb>mir al que esta captiuo. Deltir
+<lb>al desnudo, que lo hamenester.
+<lb>Dar posada a los peregrinos.
+<lb>Enterrar los muertos.
+
+<p>Las otras siete obras de
+<lb>misericordia spirituales, son
+<pb n=42>
+<p><figure id=dc042 rend="image(images/dc042.gif)"></figure><lb>estas. Ensenãs alos sim
+<lb>ples queno saben. Dar consejo
+<lb>al quelo hamenester. Castigar
+<lb>al que hamenester castigo. Per
+<lb>donar al que erro contrati. Su
+<lb>friutas injurias de tu proximo
+<lb>conpaciencia, al doliente, yatsa
+<lb>nüdo. Consolar los tristes, y
+<lb>desconsolados, Rogardios
+<lb>por los uiuos y por los muertos.
+<lb>Amen.
+
+<div1 id=fac29 lang=tl>
+
+<p>Ang cauaan gaua labin apat ãg
+<lb>pitong naona paquinabang nãg
+<lb>catauan, ang pitong naholi pa
+<pb n=43>
+<p><figure id=dc043 rend="image(images/dc043.gif)"></figure><lb>quinabang nang caloloua. Ang
+<lb>pitong naona paquinabang nã
+<lb>catauan ay yari.
+
+<p>Dalauin ang mei hirap. Paca
+<lb>nin ang nagogotom. Painum&itilde;
+<lb>ang nauuhao. Paramtan ang ua
+<lb>lan damit. Tubsin ang nabihag.
+<lb>Patoloyin ang ualan totoloyã.
+<lb>Ybaon ang namatai.
+
+<p>Ang pitong naholi paquina
+<lb>bang nang caloloua
+<lb>ay yari.
+
+<p>Aralan ang di nacaaalam. A
+<lb>ralan ang napaaaral. Ang ta
+<pb n=44>
+<p><figure id=dc044 rend="image(images/dc044.gif)"></figure><lb>bõ sala, ce, papagdalitain. Ual
+<lb>in bahala sa loob ang casalanã
+<lb>nang naccasasala sa iyo. Houag
+<lb>ypalaman sa loob ang pagmo
+<lb>mora nang tauo sa iyo. Aliuin
+<lb>ang nalulumbai. Ipanalan&gtilde;in
+<lb>sa dios ang nabubuhai at ang
+<lb>nan&gtilde;a matai na christiano.
+<lb>Amen Jesus.
+
+<div1 id=fac30>
+
+<p><TL>a ka a wa a ga wa. la bi a pa. a pi
+<lb>to na o na. pa ki na ba na ka ta a.
+<lb>a pi to na ho li. pa ki na ba. na ka lo lo
+<lb>wa. a pi to na o na. pa ki na ba na ka ta a.
+<lb>a ya ri. da la wi a me hi ra. pa ka na.</TL>
+<pb n=45>
+<p><figure id=dc045 rend="image(images/dc045.gif)"></figure><lb><TL>a na go go to. pa i no mi. a na u u ha. pa
+<lb>ra ta. a wa la da mi. tu si a na bi ha. pa
+<lb>to lo yi. a wa la to to lo ya. i ba o. a
+<lb>na ma ta. a pi to a ho li. pa ki na
+<lb>ba na ka lo lo wa. a ya ri.
+<lb>a ra la. a di na ka a a la. a ra la.
+<lb>a na pa a a ra. a ta wo sa la. pa pa da
+<lb>li ta i. wa i ba ha la sa lo o. a ka sa la
+<lb>na. na na ka sa sa la. sa i yo. ho wa i pa
+<lb>la ma sa lo o. a pa mo mo ra. a ta wo sa
+<lb>i yo. a li wi. a na lu lu ba. a pa na la
+<lb>ngi sa di yo. a na bu bu ha. a a na
+<lb>nga ma ta na ki ni ti ya no. a me se so.</TL>
+
+<div1 id=fac31 lang=es>
+
+<p>La confesion en Romançe
+<pb n=46>
+<p><figure id=dc046 rend="image(images/dc046.gif)"></figure><lb>Jopeccador mucho herrado me
+<lb>confieso adios yasancta Maria,
+<lb>ya san Pedro ya san Pablo,
+<lb>ya los bien aueuturados, san
+<lb>Miguel harchangel, ya san
+<lb>Juan baptista; ya todos los sanc
+<lb>tos, yauos padre que peque mu
+<lb>cho con el pensamientoi conla
+<lb>palabra, y conta obra, por mi cul
+<lb>pa por mi culpa, por mi guan cul
+<lb>pa, por en de ruego a la bien au&etilde;
+<lb>turada uirgen sancta Maria,
+<lb>y alos bien auenturados apos
+<lb>toles san Pedro y san Pablo,
+<pb n=47>
+<p><figure id=dc047 rend="image(images/dc047.gif)"></figure><lb>y asanct Juan baptista, ya todos
+<lb>los sanctos y sanctas querue
+<lb>quen por mi anuestro senõr. Je
+<lb>suchristo. Amen.
+
+<div1 id=fac32 lang=tl>
+
+<p>Acoy macasalanan nagcocõ
+<lb>pesal aco sa atin pan&gtilde;inoon di
+<lb>os macagagaua sa lahat at cai
+<lb>sancta Maria uirgen totoo
+<lb>at cai sanct Miguel archangel,
+<lb>cai sanct Juan baptista sa san
+<lb>ctos apostoles cai sanct Pedro,
+<lb>at cai sanct Pablo at sa lahat
+<lb>na sanctos at sa iyo padre,
+<lb>ang naccasala aco sa pan&itilde;dim,
+<pb n=48>
+<p><figure id=dc048 rend="image(images/dc048.gif)"></figure><lb>sa pag uica at sa paggaua aco n&gtilde;a
+<lb>ce, sala aco,i, mei casalanan, aco,
+<lb>i, salan lubha siyang ypmagsisi
+<lb>sico caian&gtilde;aiata nananalan
+<lb>n&gtilde;in aco cai sancta Maria
+<lb>uirgen totoo at cai, S. Miguel archã
+<lb>gel, at cai, S.Juan baptista, at sa san
+<lb>ctos apostoles, cai S. Pedro at cai, S.
+<lb>Pablo at sa lahat na sanctos, nãg aco
+<lb>ã. ypanalan&gtilde;in nila sa atin pan&gtilde;i
+<lb>noõ dios ycao namã padre aco,i.
+<lb>ypanalan&gtilde;in mo at haman caha
+<lb>lili canang dios dito aco,i, ca
+<lb>lagan mo sa casalanan co, at
+<pb n=49>
+<p><figure id=dc049 rend="image(images/dc049.gif)"></figure><lb>parusahan mo aco. Amen, Jesu.
+
+<div1 id=fac33>
+
+<p><TL>a ko ma ka sa la na. a ko na ko ko pi sa
+<lb>sa a ti pa ngi no o di yo. ma ka ga ga
+<lb>wa sa la ha. a ka sa ta ma ri ya. bi se to to o.
+<lb>ka sa mi ge. a ka si. ka sa su wa ba ti ta. sa sa
+<lb>to a po to li. ka sa pe ro. a ka sa pa lo.
+<lb>a sa la ha na sa to. a sa i yo pa re. a na
+<lb>ka sa la a ko. sa pa ni ri. sa pa wi ka. a
+<lb>sa pa ga wa. a ko nga a sa la. a ko ma ka
+<lb>sa la na. a ko sa la lo ha. si ya i pi na si si
+<lb>si ko. ka ya nga ya to. na na na la ngi a ko
+<lb>ka sa ta ma di yo. bi se to to o. ka sa mi go.
+<lb>a ka si. a sa so wa ba ti ta. a sa sa to a
+<lb>po to li. ka sa pi ro. a ka sa pe la.</TL>
+<pb n=50>
+<p><figure id=dc050 rend="image(images/dc050.gif)"></figure><lb><TL>a sa la ha na sa to. na a ko i pa na la
+<lb>ngi ni la. sa a ti pa ngi no o di yo. i ka
+<lb>na ma pa re. a ko i pa na la ngi mo. a ha
+<lb>ma ka ha li li ka. na di yo di to. a ko ka la
+<lb>ga mo. sa ka sa la na ko. a pa ru sa ha mo
+<lb>a ko. a me se so.</TL>
+
+<div1 id=fac34 lang=es>
+
+<p>Las preguntas en Romãce
+<lb>P. Eres christiano? R. si porlami
+<lb>sericordia de Dios. P.que cosa es
+<lb>christiano? R. El hombre bapti
+<lb>zado que cree lo que ensenã di
+<lb>os, yla sancta yglesia madre nrã.
+<lb>P. qua les la senãl del christiano
+<lb>R. la sancta cruz. P. Aquien
+<pb n=51>
+<p><figure id=dc051 rend="image(images/dc051.gif)"></figure><lb>adoran los christianos? R. a nrõ
+<lb>senõr Dios. P. que cosa es dios?
+<lb>R. la primera causa, el princi
+<lb>pio de todas las cosas, El que hi
+<lb>ço todas las cosas, y el no tiene
+<lb>principio nifin. P. quantos dio
+<lb>ses ay? R. un solo dios. P. quã
+<lb>tas personas. R. tres P. como
+<lb>se llama la primera? R. Dios
+<lb>padre. P. como se llama la se&utilde;
+<lb>da? R. Dios hijo. P. como se lla
+<lb>ma la tercera? R. Dios spiritu
+<lb>sancto. P. son por uenturatres
+<lb>Dioses. R. no sontres dioses.
+<pb n=52>
+<p><figure id=dc052 rend="image(images/dc052.gif)"></figure><lb>las personas son tres, ysolo ai
+<lb>un dios. P. qual de las tres per
+<lb>sonas se hizo hombre? R. la se
+<lb>gunda persona que es el hijo.
+<lb>P. como se hizo hombre? R. por
+<lb>obra del spiritu sancto, en las
+<lb>entranãs de sancta Maria uirg&etilde;
+<lb>antes del parto, ydespues del
+<lb>parto. P. para &qtilde; se hizo hombre?
+<lb>R. para podermorir en rescate
+<lb>de los peccados de todos los
+<lb>hombres. P. qual es erantos
+<lb>peccados de los hombres? R.
+<lb>el peccado de nuestros prime
+<pb n=53>
+<p><figure id=dc053 rend="image(images/dc053.gif)"></figure><lb>ros padres. Adan y Eva, del
+<lb>qual todos participamos, y fue
+<lb>ra de esto, los peccados actua
+<lb>les conque ofenden a dios ca
+<lb>da dia. P. como rescato a los hõ
+<lb>bres? R. murio en la cruz y to
+<lb>mo asucargo los peccados de
+<lb>todos los hombres. P. despues
+<lb>de muerto nrõ senõr Jesuchris
+<lb>to que hizo su alma? R. baxo
+<lb>a los infiernos junta con la diui
+<lb>nidad, ysaco las animas de los
+<lb>sanctos padres que estauan a
+<lb>guardando su sancto adueni.
+<pb n=54>
+<p><figure id=dc054 rend="image(images/dc054.gif)"></figure><lb>miento. P. El cuerpo de nuestro
+<lb>senõr Jesuchristo fue sepultado?
+<lb>R. si P. resuscito. R. si P.quã
+<lb>do? R. al terçero dia, de su muer
+<lb>te. P. que dose aca en la tierra nu
+<lb>estro senõr Jesuchristo? R. no,
+<lb>sino subro a los çielos, despues
+<lb>de quarenta dias de su. R. esurreç
+<lb>cion y esta asentado ala diestra
+<lb>de dios padre todo poderoso.
+<lb>P. que asiento tiene alla en el
+<lb>cielo? R. El mas abentaxado
+<lb>de todos. P. ay dia enque u&etilde;dra
+<lb>ajuzgar uinos y muertos. R. si,
+<pb n=55>
+<p><figure id=dc055 rend="image(images/dc055.gif)"></figure><lb>P. quando? R. no se sabe. P.
+<lb>El alma del hombre aca base
+<lb>quando muere el hombre? R.
+<lb>no muere con el cuerpo como
+<lb>en los otros animales, si no so
+<lb>to el cuerpo muere y el alma
+<lb>uiue para siempre. P. ande uol
+<lb>uer adinir todos los que muer&etilde;
+<lb>buenos y malos? R. ande uol
+<lb>uer adinir y juntar se el cuerpo
+<lb>con el alma para ser juzgados
+<lb>de chirsto nuestro senõr. P.
+<lb>despues de. R. esuscitados los
+<lb>cuerpos de los hombres ande
+<pb n=56>
+<p><figure id=dc056 rend="image(images/dc056.gif)"></figure><lb>uoluer amorir? R. no P.que
+<lb>dara dios en premio a los bue
+<lb>nos. R. la gloria del cielo al
+<lb>la ueran adios y se alegraran
+<lb>y regozi jaran para siempre ja
+<lb>mas. P. que castigo dara dios
+<lb>a los malos? R. echar los a en
+<lb>el infierno allatendran torm&etilde;
+<lb>los y dolores para simpre ja
+<lb>mas. P. que esta sancta ygle
+<lb>sia. R. todos los hombres
+<lb>christianos que creen en di
+<lb>os, juntamente consu cabe
+<lb>ça, Jesuschristo que esta en
+<pb n=57>
+<p><figure id=dc057 rend="image(images/dc057.gif)"></figure><lb>el cielo, ysuuicauio en la tierra
+<lb>que es el papa del Roma. P. En es
+<lb>ta sancta yglesia y cosas que
+<lb>quiten peccados? R. si P. que
+<lb>cosas son? R. el baptisimo a
+<lb>los no christianos, y la confe
+<lb>sion a los ya christianos que
+<lb>peccaron si searrepienten de
+<lb>suspeccados de ueras ytien&etilde;
+<lb>uoluntad de nunca mas boluer
+<lb>apeccar. P. En esta sancta yglia
+<lb>ay comunion de los sanctos? R.
+<lb>si. P. que esta comunion de los
+<lb>sanctos? R. la partiçipaçion
+<pb n=58>
+<p><figure id=dc058 rend="image(images/dc058.gif)"></figure><lb>de los buenos christianos en las
+<lb>buenas obras y sacramentos.
+<lb>P. quando leuanta la ostia el pa
+<lb>dre en la missa para quela ado
+<lb>rentos christianos quien esta
+<lb>asti? R. Jesuchristo nrõ senõr
+<lb>dios y hombre uerdadero como
+<lb>esta en el cielo. P. En el caliz
+<lb>quien esta? R. la sangre uer
+<lb>dadera de nrõ senõr Jesuchris
+<lb>to como aquella que deruamo
+<lb>en la cruz. P. que esta el chris
+<lb>tiano obligado a hazer, para
+<lb>saluarse? R. hazer y cumplir.
+<pb n=59>
+<p><figure id=dc059 rend="image(images/dc059.gif)"></figure><lb>los diez mandamientos de dios
+<lb>y los de la sancta madre yglesia.
+
+<div1 id=fac35 lang=tl>
+
+<p>Ang tanon&gtilde;an.
+
+<p>Tanon&gtilde;an. Christiano cana?
+<lb>Sagot. Oo.t aua nang atin pã
+<lb>n&gtilde;inoon dios. T. ano caia ang
+<lb>christiano? S. ang binãgan su
+<lb>masangpalataia sa aral nang
+<lb>dios at nang sancta yglesia
+<lb>yna natin. T. alin caia ang tan
+<lb>da nang christiano? S. ang sãcta
+<lb>cruz. T. sino caia ang sinasam
+<lb>ba nang man&gtilde;a christiano? S.
+<lb>ang atin pan&gtilde;inoon dios. T.
+<pb n=60>
+<p><figure id=dc060 rend="image(images/dc060.gif)"></figure><lb>ano caia ang dios? S. ang onãg
+<lb>mola. ang caona onahan sa lahat,
+<lb>ang mei gaua sa lahat, siya,e,
+<lb>ualan pinagmolan ualan cahã
+<lb>ganan. T. ylan ang dios? S. ysa
+<lb>lamang. T. ylan ang personas?
+<lb>S. tatlo. T. anong n&gtilde;alang nang
+<lb>naona? S. ang dios ama. T. anõg
+<lb>n&gtilde;alan nang ycalua? S. ang di
+<lb>os anac. T. anong n&gtilde;alan nãg
+<lb>ycatlo? S. ang dios spiritusãcto.
+<lb>T. tatlo caia ang dios? S. dile
+<lb>tatlo ang dios, ang personas
+<lb>siyang tatlo, ang dios ysa
+<pb n=61>
+<p><figure id=dc061 rend="image(images/dc061.gif)"></figure><lb>lamang. T. alin sa tatlong per
+<lb>sonas ang nagcatauan tauo?
+<lb>S. ang ycaluang persona nang
+<lb>sanctissima trinidad ang dios a
+<lb>nac. T. anong pagcatauan tauo
+<lb>niya? S. pinaglalangan siya nãg
+<lb>dios spiritusancto satian ni sãcta
+<lb>Maria uirgen totoo nang dipa
+<lb>nan&gtilde;anac siya. nang macapan&gtilde;a
+<lb>nac na virgen din totoo. T. ayat
+<lb>nagcatauan tauo siya? S, nang mã
+<lb>yari mamatai siya tubus sacasa
+<lb>lanan nang lahat na tauo. T. atin
+<lb>caia ang casalanan nang tauo?
+<pb n=62>
+<p><figure id=dc062 rend="image(images/dc062.gif)"></figure><lb>S. ang casalanan nang atin magu
+<lb>gulang si Adan at si Eva nagin
+<lb>casalanan natin, naramai pala ta
+<lb>yo sapagcacasala nila sa pan&gtilde;ino
+<lb>on dios. bucor naman doon ang sa
+<lb>diling casalanan nang balan nang
+<lb>tauo nagcasasala sa dios arao
+<lb>arao. T. Anong pagtubus niya
+<lb>sa tauo? S. nagpacamatai siya
+<lb>sa cruz, at sinacop niya ang san
+<lb>libotan bayan. T. nang namatai
+<lb>na ang atin pan&gtilde;inoon Jesuchris
+<lb>to sa cruz, anong guinaua nang
+<lb>caloloua niya? S, nanaog sama
+<pb n=63>
+<p><figure id=dc063 rend="image(images/dc063.gif)"></figure><lb>n&gtilde;a infiernos pati nang pagca
+<lb>dios niya, at hinan&gtilde;o doon ãg
+<lb>caloloua nang man&gtilde;a sanctos
+<lb>padres naghihintai nãgpagda
+<lb>ting niya. T. ang catauan ni
+<lb>Jesuchristo ybinaon? S. oo. T.
+<lb>nabuhai nanaguli? S. oo. T. ca
+<lb>ylan? S. nang magycatlong
+<lb>arao nangpagcamatai niya. T.
+<lb>humabilin dito sa lupa ang atin
+<lb>pan&gtilde;inoon Jesuchristo? S. di
+<lb>le humabilin dito sa lupa, nac
+<lb>yat sa lan&gtilde;it nang magycapat
+<lb>napoung arao nang pagcabu
+<pb n=64>
+<p><figure id=dc064 rend="image(images/dc064.gif)"></figure><lb>hai niyang naguli, at nalolocloc
+<lb>sa canan nang dios ama maca
+<lb>gagaua sa lahat. T. anong pagca
+<lb>locloc niya doon sa lan&gtilde;it? S.
+<lb>pinalalo siya nang dios ama ni
+<lb>ya sa lahat. T. mei arao na yhoho
+<lb>com sa nangabubuhai, at sana
+<lb>ngamatai natauo? S. oo T. cailã?
+<lb>S. dile naaalaman. T. sino caia,
+<lb>ang hocom? S. ang atin pan&gtilde;ino
+<lb>on Jesuchristo. T. ang caloloua
+<lb>natin mamatai caia cun mama
+<lb>tai ang catauan natin? S. dile ma
+<lb>matai ang caloloua natin para
+<pb n=65>
+<p><figure id=dc065 rend="image(images/dc065.gif)"></figure><lb>nang sa haiop, ang catauan la
+<lb>mang mamatai, ang caloloua
+<lb>mabubuhai magparating man
+<lb>saan. T. mabubuhai caia mag
+<lb>uli ang nan&gtilde;amatai natauo, ba
+<lb>nal man, tampalasan man. S, oo
+<lb>mabubuhai din maguli, at papa
+<lb>soc na moli ang caloloua sa ca
+<lb>tauan nang hocoman silang
+<lb>dalua nang atin pan&gtilde;inoon Je
+<lb>suchristo. T. cun mabuhai na
+<lb>maguli ang catauan nang ma
+<lb>nga tauo mamatai pa caiang mo
+<lb>li? S. dile. T. ano ygaganti
+<pb n=66>
+<p><figure id=dc066 rend="image(images/dc066.gif)"></figure><lb>nang dios sa man&gtilde;a banal na
+<lb>tauo. S. ang caluualhatian
+<lb>sa lan&gtilde;it doon maquiquita ni
+<lb>la ang dios, at matotoua at ma
+<lb>liligaia, at luluualhati magpa
+<lb>rating man saan. T. ano ypa
+<lb>rurusa niya sa man&gtilde;a tauõ tan
+<lb>palasan? S, yhoholog niya sa
+<lb>ynfierno doon maghihirap sila
+<lb>at maccacasaquet magparat&itilde;g
+<lb>man saan. T. ano caia ang san
+<lb>cta yglesia? S. ang lahat nata
+<lb>uo christiano sumasangpala
+<lb>taia sa dios pati nang pononi
+<pb n=67>
+<p><figure id=dc067 rend="image(images/dc067.gif)"></figure><lb>la si Jesuchristo,e, nasa lan&gtilde;it
+<lb>dito sa lupa ang cahalili niya
+<lb>ang sancto Papa sa Roma?
+<lb>T. dito sa sancta yglesia mei
+<lb>ycauauala nang casalanan?
+<lb>S, oo, T, ano caia ang ycauaua
+<lb>la nang casalanan? S, ang
+<lb>pinagbinãg sa dipa christianos
+<lb>at ang pagcoconfesal nang ma
+<lb>n&gtilde;a christianos mei casalanã,
+<lb>cun magsising masaquet at
+<lb>mei loob na di moli maccasa
+<lb>la sa dios magparating man
+<lb>saan. T, dito sasancta yglesia
+<pb n=68>
+<p><figure id=dc068 rend="image(images/dc068.gif)"></figure><lb>mei casamahan ang man&gtilde;a
+<lb>sanctos? S, oo, T, ano caia
+<lb>ang casamahan nang man&gtilde;a
+<lb>sanctos? S, ang pagpapaquina
+<lb>bang nang man&gtilde;a Christianos
+<lb>banal na tauo, sa gauã maga
+<lb>ling sangpon nang sasacra
+<lb>mentos. T, Nang binubuhat
+<lb>ang ostia nang padre sapagmi
+<lb>misa sino caia ang naroon?
+<lb>S, ang atin pan&gtilde;inoon Jesu
+<lb>Christo Dios totoo, at tauõg
+<lb>totoo, para doon sa lan&gtilde;it. T, sa
+<lb>caliz sino caia ang naroon? S,
+<pb n=69>
+<p><figure id=dc069 rend="image(images/dc069.gif)"></figure><lb>Ang dugong totoo nang atin
+<lb>pan&gtilde;inoon Jesuchristo, capara
+<lb>niun nabohos sa cruz nang na
+<lb>matai siya. T, ano caia ang ga
+<lb>gauin nang man&gtilde;a Christiano
+<lb>nang macaparoon sa lan&gtilde;it? S,
+<lb>Ang susundin nila ang sang
+<lb>po, uong otos nang dios, pati
+<lb>nang otos nang sancta yglesia
+<lb>yna natin.
+
+<div1 id=fac36>
+
+<p><TL>ta no nga.</TL>
+
+<p><TL>ki ni ti ya no ka na. o o a wa na a
+<lb>ti pa ngi no o di yo. a no ka ya
+<lb>a ki ni ti ya no. a bi ya ga na ta wo. su ma</TL>
+<pb n=70>
+<p><figure id=dc070 rend="image(images/dc070.gif)"></figure><lb><TL>sa pa la ta ya. sa a ra na di yo. a na sa
+<lb>ta i le si ya. i na na ti. a li ka ya
+<lb>a ta da na ki ni ti ya no. a sa ta ku ru.
+<lb>si no ka ya. a si na sa ba. na ma nga ki ni
+<lb>ti ya no. a a ti pa ngi no o di yo. a
+<lb>no ka ya a di yo. a o na mo la. a ka o
+<lb>na o na ha sa la ha. a ma ga wa sa la ha.
+<lb>si ya wa la pi na mo a. wa la ka ha ga na.
+<lb>i la a di yo. i i sa la ma. i la a
+<lb>pe so na. ta lo. a no nga la na na o na. di
+<lb>yo a ma. ano nga la na i ka wa. di yo a ma.
+<lb>a no nga la na i ka lo. di yo e pi ri to
+<lb>sa to. ta lo ka ya a di yo. di le ta lo a di
+<lb>yo. a pe so na si ya ta lo. a di yo i sa</TL>
+<pb n=71>
+<p><figure id=dc071 rend="image(images/dc071.gif)"></figure><lb><TL>la ma. a li sa ta lo pe so na. a na ka ta a
+<lb>ta wo. a i ka wa pe so na. na sa ti si ma ti
+<lb>ni da. na di yo a na. a no pa ka ta a ta wo
+<lb>ni ya. pi na la la nga si ya. na di yo e pi
+<lb>ri to sa to. sa ti ya ni sa to ma ri ya.
+<lb>bi se to to o. na di pa na nga na. si ya. na ma
+<lb>ka pa nga na na. bi se ri to to o. a a na ka
+<lb>ta a ta wo si ya. na ma ya ri ma ma ta si ya.
+<lb>tu bu sa ka sa la na. na la ha na ta wo. a li ka
+<lb>ya a ka sa la na ni la. a o na ka sa la na.
+<lb>na ma gu gu la na ti. si a da. a si e ba.
+<lb>na gi ka sa la na na ti . na ra ma pa la ta yo.
+<lb>sa pa ka ka o la ni la sa di yo. bo ko na ma do
+<lb>o. a sa di li a sa la na. na ba la na ta wa.</TL>
+<pb n=72>
+<p><figure id=dc072 rend="image(images/dc072.gif)"></figure><lb><TL>na ka sa sa la sa di yo. a ra a ra. ti nu
+<lb>bu ni se so ki to. a la ha na ta wo. o o. a no
+<lb>pa tu bu ni ya sa ma nga ta wo. a pa ka ma ta
+<lb>si ya sa ku ru. a si na ko ni ya. a sa li bu
+<lb>ta ba ya. na na ma ta na a a ti pa ngi no o
+<lb>se so ki to sa ku ru. a no gi na wa na ka lo lo wa
+<lb>ni ya. na na o sa ma nga i pe no. pa ti na
+<lb>pa ka di yo ni ya. a hi na ngo do o. a
+<lb>ka lo lo wa na ma nga sa to pa re. na hi ni ta
+<lb>a pa ra ti ni ya. a ka ta a ni se so ki to.
+<lb>i bi na o. o o. na bu ha na na u li. o o. ka i
+<lb>la. na ma i ka lo a ra. a pa ka ma ta ni ya.
+<lb>hu ma bi li di to sa lu pa. a a ti pa ngi no
+<lb>o se so ki to. di le hu ma bi li di to sa lu pa.</TL>
+<pb n=73>
+<p><figure id=dc073 rend="image(images/dc073.gif)"></figure><lb><TL>na ya sa la ngi. na ma i ka pa na po wo a
+<lb>ra. a pa ka bu ha ni ya na o li. a na lo
+<lb>lo lo sa ka na na di yo a ma. a ka ga ga wa
+<lb>sa la ha. a no pa ka lo lo ni ya. do o sa la
+<lb>ngi. pi na lo lo si ya na di yo a ma ni ya.
+<lb>sa la ha. ma a ra na i ho ho. sa ma bu bu ha
+<lb>a sa na nga ma ta na ta wo. o o. ka i la. di le
+<lb>na a a la ma. si no ka ya a ho ko. a a
+<lb>ti pa ngi no o se so ki to. a ka lo lo wa na ti.
+<lb>ma ma ta ka ya. ko ma ma ta a ka ta a na ti.
+<lb>di le ma ma ta a ka lo lo wa na ti. pa ra na sa i
+<lb>ba ha yo. a ka ta a na la ma. a ma ma ta. a ka
+<lb>lo lo wa ma bu bu ha. ma pa ra ti ma sa a
+<lb>ma bu bu ha ka ya ma o li. a na nga ma ta na to wo.</TL>
+<pb n=74>
+<p><figure id=dc074 rend="image(images/dc074.gif)"></figure><lb><TL>ba na ma. ta pa la sa ma. o o na bu bu ha ri
+<lb>ma u li. a pa pa so na mo li. a ka lo lo
+<lb>wa sa ka ta a ni ya. na ho ko ma si la da wa.
+<lb>na a ti pa ngi no o se so ki to. ku ma bu ha
+<lb>na ma o li. a ka ta a na ma nga ta wo. ma ma ta
+<lb>pa ka ya mo li. di le. ano i ga ga ti na di yo
+<lb>sa ma nga ba na na ta wo. a ka lu wa ha ti a a sa la
+<lb>ngi. do o ma ki ki ta ni la a di yo. a ma to
+<lb>to wa. a ma li li ga ya. a lu lu wa ha ti. ma pa
+<lb>ra ti ma sa a. a no i pa ru ru sa na di yo
+<lb>a ma nga ta wo ta pa la sa. i ho ho lo ni ya.
+<lb>sa i pe no. do o ma hi hi ra si ya. a ma ka
+<lb>ka sa ki. ma pa ra ti ma sa a. a no ka ya a
+<lb>sa ta i le si ya. a la ha na ta wo ki ni ti ya no.</TL>
+<pb n=75>
+<p><figure id=dc075 rend="image(images/dc075.gif)"></figure><lb><TL>su ma sa pa la ta ya sa di yo. pa ti na po
+<lb>po ni la si se so ki to. na sa la ngi. a di
+<lb>to sa lu pa. a ka ha li li ni ya. a sa to pa
+<lb>pa. di to sa sa ta i le si ya. ma i ka wa wa la
+<lb>na ka sa la na. a no ka ya a i ka wa wa la
+<lb>na ka sa la na. a pa bi ya sa di pa ki ni ti
+<lb>ya no. a a pa ko ko pi sa. a ma nga ka
+<lb>ni ti ya no. ma ka sa la na. ku ma si si ma sa ki.
+<lb>a ma lo o. na di mo li ma ka sa la sa di yo
+<lb>ma pa ra ti ma sa a. di to sa sa ta i le si
+<lb>ya. ma ka sa ma ha. a ma nga sa to. o o. a no
+<lb>ka ya a ka sa ma ha. na ma nga sa to. a pa pa
+<lb>pa ki na ba. na ma nga ki ni ti ya no. ba na na
+<lb>ta wo. sa ga wa ma ga li. sa po na sa sa ka ra me to.</TL>
+<pb n=76>
+<p><figure id=dc076 rend="image(images/dc076.gif)"></figure><lb><TL>na bi nu bu ha a o ti ya na pa re. sa pa mi
+<lb>mi sa. si no ka ya a na ro o. a a ti pa
+<lb>ngi no o se so ki to. di yo to to o. a ta wo
+<lb>to to o. pa ra do o sa la ngi. sa ka li. si no
+<lb>ka ya a na do o. a du go to to o. na a ti pa
+<lb>ngi no o se so ki to. ka pa ra ni u na bo ho sa ku
+<lb>ru. na na ma ta si ya. ano ka ya. a ga ga i
+<lb>na ma nga ki ni ti ya no. na ma ka pa ro o sa
+<lb>la ngi. a su su di ni ya. a sa po wo o to na di
+<lb>yo. pa ti na o to na sa ta i le si ya.
+<lb>i na na ti.</TL>
+
+
+<p lang=es>Laus Deo
+
+
+</div1>
+
+<divGen type=Colophon>
+
+</back>
+</text>
+</TEI.2>

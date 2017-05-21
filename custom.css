@@ -1,0 +1,18 @@
+
+@font-face
+{
+    font-family: "Tagalog Doctrina 1593";
+    src:url(fonts/TagDoc93.woff);
+}
+
+span[xml\:lang="tl-tglg"]
+{
+    font-family: "Tagalog Doctrina 1593";
+    font-size: 18pt;
+}
+
+span[lang="tl-tglg"]
+{
+    font-family: "Tagalog Doctrina 1593";
+    font-size: 18pt;
+}
